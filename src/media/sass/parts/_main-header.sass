@@ -1,0 +1,26 @@
+.main-header
+	position: fixed
+	top: 0
+	left: 0
+	z-index: 10
+	width: 100%
+	padding: 20px 0
+	transition: background-color $default-transition-duration $default-transition-function
+	&._with-bg
+		background-color: rgba(246, 246, 246, 0.97)
+		transition: background-color $default-transition-duration $default-transition-function
+	+min-screen($breakpoint-md)
+		padding: 38px 0
+	&__inner
+		display: flex
+		align-items: center
+		justify-content: space-between
+	&__logo-text
+		white-space: nowrap
+		font-family: $font-family-base
+		font-size: 18px
+		font-weight: 300
+		line-height: 1
+		letter-spacing: -0.018em
+		color: #000
+		pointer-events: none

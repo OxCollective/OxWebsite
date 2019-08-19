@@ -1,0 +1,116 @@
+.proud-item
+	display: flex
+	flex-direction: column
+	justify-content: flex-start
+	+min-screen($breakpoint-sm)
+		margin: 0 -8px
+		flex-direction: row
+	+min-screen($breakpoint-lg)
+		margin: 0
+		flex-direction: column
+		width: 370px
+	+min-screen($breakpoint-xl)
+		width: 500px
+	&__slider
+		position: relative
+		margin-bottom: 5px
+		width: 270px
+		height: 360px
+		background-color: #f6f6f6
+		transition: transform $default-transition-duration $default-transition-function, box-shadow $default-transition-duration $default-transition-function
+		+min-screen($breakpoint-sm)
+			margin: 0 8px
+			width: 256px
+			min-width: 256px
+			height: 340px
+		+min-screen($breakpoint-md)
+			width: 312px
+			min-width: 312px
+			height: 416px
+		+min-screen($breakpoint-lg)
+			margin-bottom: 25px
+			width: 370px
+			min-width: 370px
+			height: 500px
+		+min-screen($breakpoint-xl)
+			margin-bottom: 35px
+			min-width: 500px
+			width: 500px
+			height: 665px
+		+desktop
+			&:hover
+				transform: scale(1.05)
+				box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.2)
+				transition: transform $default-transition-duration $default-transition-function, box-shadow $default-transition-duration $default-transition-function
+				.slick-arrow
+					opacity: 1
+					transition: opacity $default-transition-duration $default-transition-function
+		.slick-list
+			height: 100%
+			overflow: hidden
+		.slick-track
+			display: flex
+			height: 100%
+		.slick-arrow
+			position: absolute
+			z-index: 1
+			width: 30px
+			height: 30px
+			opacity: 0
+			+reset-btn
+			transition: opacity $default-transition-duration $default-transition-function
+		.slick-arrow-icon
+			width: 30px
+			height: 40px
+			fill: #fff
+			filter: drop-shadow( 0px 1px 8px rgba(0, 0, 0, .75))
+		.slick-prev
+			top: 50%
+			left: 0
+		.slick-next
+			top: 50%
+			right: 0
+		.slick-slide div
+			height: 100%
+		img
+			width: 100%
+			height: 100%
+			object-fit: cover
+	&__content
+		padding: 15px 0 0 15px
+		+min-screen($breakpoint-sm)
+			margin: 0 8px
+			flex-grow: 1
+			padding: 40px 0 0
+		+min-screen($breakpoint-md)
+			margin: 0 12px
+			padding: 105px 0 0
+		+min-screen($breakpoint-lg)
+			margin: 0
+			padding: 0 0 0 25px
+		+min-screen($breakpoint-xl)
+			padding: 0 0 0 60px
+	&__title
+		margin-bottom: 16px
+		font-family: $font-family-accident
+		font-size: 20px
+		font-weight: 900
+		letter-spacing: -0.025em
+		line-height: 1.2
+		+min-screen($breakpoint-sm)
+			margin-bottom: 20px
+			line-height: 1.15
+		+min-screen($breakpoint-lg)
+			margin-bottom: 25px
+			font-size: 28px
+		+min-screen($breakpoint-xl)
+			font-size: 32px
+	&__desc
+		font-size: 18px
+		font-weight: 300
+		letter-spacing: -0.005em
+		line-height: 1.23
+		+min-screen($breakpoint-lg)
+			font-size: 21px
+		+min-screen($breakpoint-xl)
+			line-height: 1.15

@@ -1,0 +1,60 @@
+.process-item
+	display: flex
+	flex-direction: column
+	align-items: center
+	+min-screen($breakpoint-sm)
+		flex-direction: row
+	+min-screen($breakpoint-md)
+		align-items: flex-start
+	+min-screen($breakpoint-lg)
+		flex-direction: column
+		align-items: center
+	&__icon-container
+		margin-bottom: 25px
+		display: flex
+		justify-content: center
+		align-items: center
+		width: 200px
+		height: 200px
+		border-radius: 50%
+		background-color: $theme-color-1
+		+min-screen($breakpoint-sm)
+			margin:  0 50px 0 0
+			min-width: 200px
+		+min-screen($breakpoint-md)
+			margin: 0 80px 0 55px
+		+min-screen($breakpoint-lg)
+			margin: 0 0 50px 0
+		+min-screen($breakpoint-xl)
+			width: 240px
+			height: 240px
+	&__content
+		display: flex
+		flex-direction: column
+		align-items: center
+		+min-screen($breakpoint-sm)
+			align-items: flex-start
+		+min-screen($breakpoint-md)
+			padding-top: 10px
+		+min-screen($breakpoint-lg)
+			align-items: center
+			padding-top: 0
+		+min-screen($breakpoint-xl)
+			max-width: 290px
+	&__title
+		margin-bottom: 16px
+		font-family: $font-family-accident
+		font-size: 32px
+		font-weight: 900
+		line-height: 1.09
+		+min-screen($breakpoint-lg)
+			margin-bottom: 25px
+			text-align: center
+			font-size: 40px
+	&__desc
+		text-align: center
+		+min-screen($breakpoint-sm)
+			text-align: left
+		+min-screen($breakpoint-lg)
+			text-align: center
+			font-size: 20px

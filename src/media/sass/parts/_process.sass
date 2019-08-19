@@ -1,0 +1,35 @@
+.process
+	margin-bottom: 110px
+	+min-screen($breakpoint-sm)
+		margin-bottom: 75px
+	+min-screen($breakpoint-lg)
+		margin-bottom: 160px
+	+min-screen($breakpoint-xl)
+		margin-bottom: 230px
+	&__section-title
+		margin-bottom: 50px
+		+min-screen($breakpoint-md)
+			margin-bottom: 65px
+		+min-screen($breakpoint-lg)
+			margin-bottom: 95px
+		+min-screen($breakpoint-xl)
+			margin-bottom: 125px
+	&__list
+		+min-screen($breakpoint-sm)
+			margin-left: 25px
+		+min-screen($breakpoint-md)
+			margin-left: 0
+		+min-screen($breakpoint-lg)
+			display: flex
+			flex-direction: row
+			margin: 0 -12px
+	&__list-item
+		+min-screen($breakpoint-lg)
+			margin: 0 12px
+			flex-grow: 1
+		&:not(:last-of-type)
+			margin-bottom: 50px
+			+min-screen($breakpoint-md)
+				margin-bottom: 55px
+			+min-screen($breakpoint-lg)
+				margin-bottom: 0

@@ -1,0 +1,19 @@
+.section-subtitle
+	position: relative
+	margin-bottom: 8px
+	padding-top: 50px
+	text-transform: uppercase
+	font-size: 18px
+	font-weight: 300
+	+min-screen($breakpoint-lg)
+		padding-top: 95px
+	&::before
+		content: ''
+		position: absolute
+		top: 0
+		left: 0
+		width: 128px
+		height: 1px
+		background-color: #000
+		+min-screen($breakpoint-lg)
+			width: 190px

@@ -1,0 +1,58 @@
+.services
+	margin-bottom: 70px
+	+min-screen($breakpoint-sm)
+		margin-bottom: 100px
+	+min-screen($breakpoint-lg)
+		margin-bottom: 95px
+	+min-screen($breakpoint-xl)
+		margin-bottom: 130px
+	&__section-title
+		margin-bottom: 50px
+		+min-screen($breakpoint-lg)
+			margin-bottom: 60px
+		+min-screen($breakpoint-xl)
+			margin-bottom: 100px
+	&__list
+		position: relative
+		padding-bottom: 50px
+		background-color: $theme-color-1
+		+min-screen($breakpoint-sm)
+			padding-left: 7px
+		+min-screen($breakpoint-lg)
+			display: flex
+			flex-flow: row wrap
+			margin: 0 -12px
+		+min-screen($breakpoint-xl)
+			margin: 0 -28px
+		&::before
+			content: ''
+			position: absolute
+			top: -80px
+			right: 0
+			z-index: -1
+			width: 100vw
+			height: calc(100% + 80px)
+			background-color: $theme-color-1
+			+min-screen($breakpoint-sm)
+				top: -68px
+				height: calc(100% + 68px)
+			+min-screen($breakpoint-md)
+				top: -65px
+				height: calc(100% + 65px)
+			+min-screen($breakpoint-lg)
+				top: -88px
+				height: calc(100% + 88px)
+			+min-screen($breakpoint-xl)
+				top: -130px
+				height: calc(100% + 130px)
+	&__list-item
+		+min-screen($breakpoint-lg)
+			width: calc(50% - 24px)
+			margin: 0 12px
+		+min-screen($breakpoint-xl)
+			width: calc(50% - 56px)
+			margin: 0 28px
+		&:not(:last-of-type)
+			margin-bottom: 45px
+			+min-screen($breakpoint-xl)
+				margin-bottom: 85px

@@ -1,0 +1,25 @@
+{% from "../parts/_head-scripts.nunj" import headScripts %}
+<!DOCTYPE html>
+<html class="page">
+	<head>
+		<!-- Client-side programming by sborkaproject.com -->
+		<meta charset="utf-8" />
+		<title>{% block title %}Ox Collective{% endblock %}</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+		{{ headScripts() }}
+
+		{% block stylesheets %}
+			<link rel="stylesheet" href="media/css/screen.css?hash" />
+		{% endblock stylesheets %}
+	</head>
+	<body>
+		<div class="wrapper">
+			{% block content %}
+			{% endblock content %}
+		</div>
+		{% block scripts %}
+			<script src="media/js/bundle.js?hash"></script>
+		{% endblock scripts %}
+	</body>
+</html>

@@ -1,0 +1,105 @@
+.main-footer
+	padding: 35px 0 16px
+	background-color: #333
+	+min-screen($breakpoint-lg)
+		padding-top: 70px
+	&__top
+		display: flex
+		flex-direction: column
+		+min-screen($breakpoint-xl)
+			flex-direction: row
+			justify-content: space-between
+	&__icon
+		margin-bottom: 53px
+		display: inline-block
+		width: 40px
+		height: 40px
+		margin-left: 3px
+		transform: rotate(-15deg)
+		+min-screen($breakpoint-lg)
+			width: 45px
+			height: 45px
+	&__sections-container
+		display: flex
+		flex-direction: column
+		margin-bottom: 15px
+		+min-screen($breakpoint-sm)
+			flex-flow: row wrap
+		+min-screen($breakpoint-lg)
+			margin: 0 -10px 65px
+		+min-screen($breakpoint-xl)
+			margin: 0 0 130px
+	&__section
+		margin-bottom: 48px
+		+min-screen($breakpoint-sm)
+			width: 50%
+		+min-screen($breakpoint-lg)
+			margin: 0 5px
+			width: calc(50% - 10px)
+		+min-screen($breakpoint-xl)
+			margin: 0
+			width: auto
+			&:not(:last-of-type)
+				margin-right: 120px
+	&__section-title
+		position: relative
+		margin-bottom: 16px
+		padding-top: 16px
+		text-transform: uppercase
+		font-size: 14px
+		font-weight: 300
+		color: #fff
+		+min-screen($breakpoint-lg)
+			margin-bottom: 14px
+			padding-top: 20px
+		&::before
+			content: ''
+			position: absolute
+			top: 0
+			left: 0
+			width: 128px
+			height: 1px
+			background-color: #fff
+			+min-screen($breakpoint-lg)
+				width: 180px
+	&__company-title
+		margin-bottom: 8px
+		font-family: $font-family-accident
+		font-size: 18px
+		font-weight: 900
+		color: #fff
+	&__address
+		font-size: 18px
+		font-weight: 300
+		color: #fff
+	&__mail
+		text-decoration: underline
+		font-family: $font-family-accident
+		font-size: 18px
+		font-weight: 900
+		color: #fff
+		+desktop
+			&:hover
+				text-decoration: underline
+				color: #fff
+	&__bottom
+		display: flex
+		flex-direction: column
+		align-items: center
+	&__bottom-link
+		margin-bottom: 8px
+		text-decoration: underline
+		font-size: 14px
+		font-weight: 300
+		text-align: center
+		color: #b2b2b2
+		+desktop
+			&:hover
+				text-decoration: underline
+				color: #b2b2b2
+	&__owner
+		text-align: center
+		font-size: 14px
+		font-weight: 300
+		text-align: center
+		color: #b2b2b2

@@ -1,0 +1,32 @@
+.btn-menu
+	position: relative
+	width: 24px
+	height: 24px
+	+reset-btn
+	+min-screen($breakpoint-md)
+		display: none
+	&__stick
+		width: 24px
+		height: 2px
+		background-color: #000
+		transition: opacity $default-transition-function, transform $default-transition-function
+	&__stick-1
+		position: absolute
+		top: 4px
+		left: 0
+		transition-duration: 0.35s
+	&__stick-2
+		position: absolute
+		top: 11px
+		left: 0
+		transition-duration: 0.15s
+	&__stick-3
+		position: absolute
+		top: 11px
+		left: 0
+		transition-duration: 0.15s
+	&__stick-4
+		position: absolute
+		top: 18px
+		left: 0
+		transition-duration: 0.35s

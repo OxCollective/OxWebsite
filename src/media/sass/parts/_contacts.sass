@@ -1,0 +1,151 @@
+.contacts
+	display: flex
+	flex-direction: column
+	margin-bottom: 60px
+	+min-screen($breakpoint-sm)
+		margin: 0 -8px 60px
+		flex-direction: row
+	+min-screen($breakpoint-lg)
+		margin: 0 -12px 130px
+	&__leftside
+		position: relative
+		height: 307px
+		+min-screen($breakpoint-sm)
+			margin: 0 8px
+			width: 50%
+			height: auto
+			padding-top: 30px
+		+min-screen($breakpoint-lg)
+			margin: 0 12px
+			padding-top: 0
+	&__rightside
+		position: relative
+		z-index: 2
+		top: -40px
+		+min-screen($breakpoint-sm)
+			width: 50%
+			margin: 0 8px
+		+min-screen($breakpoint-lg)
+			margin: 0 12px
+			top: 0
+	&__section-title
+		margin-bottom: 35px
+		font-family: $font-family-accident
+		font-size: 32px
+		font-weight: 900
+		line-height: 1.1
+		letter-spacing: -0.025em
+		+min-screen($breakpoint-lg)
+			margin-bottom: 55px
+			font-size: 40px
+		+min-screen($breakpoint-xl)
+			margin-bottom: 50px
+			font-size: 63px
+	&__desc
+		margin-bottom: 30px
+		+min-screen($breakpoint-lg)
+			margin-bottom: 45px
+			max-width: 330px
+			font-size: 23px
+		+min-screen($breakpoint-xl)
+			max-width: 500px
+	&__photo-1
+		position: absolute
+		top: 50px
+		left: 0
+		z-index: 2
+		width: 103px
+		height: 137px
+		+min-screen($breakpoint-sm)
+			top: 86px
+			right: 160px
+			left: auto
+			width: 97px
+			height: 128px
+		+min-screen($breakpoint-md)
+			top: 58px
+			right: 203px
+			width: 118px
+			height: 157px
+		+min-screen($breakpoint-lg)
+			top: 85px
+			right: 255px
+			width: 152px
+			height: 204px
+		+min-screen($breakpoint-xl)
+			right: 344px
+			top: 116px
+			width: 206px
+			height: 276px
+	&__photo-2
+		position: absolute
+		top: 144px
+		left: 63px
+		z-index: 1
+		width: 182px
+		height: 137px
+		+min-screen($breakpoint-sm)
+			top: 174px
+			right: 27px
+			left: auto
+			width: 172px
+			height: 128px
+		+min-screen($breakpoint-md)
+			top: 164px
+			width: 209px
+			height: 157px
+		+min-screen($breakpoint-lg)
+			right: 42px
+			top: 225px
+			width: 271px
+			height: 204px
+		+min-screen($breakpoint-xl)
+			top: 300px
+			right: 55px
+			width: 367px
+			height: 276px
+	&__photo-3
+		position: absolute
+		top: -3px
+		left: 80px
+		z-index: 1
+		width: 193px
+		height: 130px
+		+min-screen($breakpoint-sm)
+			top: 32px
+			right: 0
+			left: auto
+			width: 182px
+			height: 121px
+		+min-screen($breakpoint-md)
+			top: -7px
+			width: 222px
+			height: 148px
+		+min-screen($breakpoint-lg)
+			top: 4px
+			right: 0
+			width: 286px
+			height: 192px
+		+min-screen($breakpoint-xl)
+			top: 0
+			right: 5px
+			width: 388px
+			height: 260px
+	&__mail
+		display: flex
+		flex-direction: column
+		+min-screen($breakpoint-md)
+			flex-direction: row
+	&__mail-text
+		+min-screen($breakpoint-md)
+			margin-right: 5px
+		+min-screen($breakpoint-lg)
+			font-size: 23px
+	&__mail-link
+		text-decoration: underline
+		color: #000
+		&:hover
+			text-decoration: underline
+			color: #000
+		+min-screen($breakpoint-lg)
+			font-size: 23px
