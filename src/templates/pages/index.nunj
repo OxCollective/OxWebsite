@@ -1,345 +1,348 @@
-{% extends "../ext/base.nunj" %} {% block content %}
+{% extends "../ext/base.nunj" %}
+{% block content %}
 
-<header class="main-header">
-	<div class="container">
-		<div class="main-header__inner">
-			<span class="main-header__logo-text _fade-down" data-section-anchor="heading" data-animation="_animated">
+	<header class="main-header">
+		<div class="container">
+			<div class="main-header__inner">
+				<span class="main-header__logo-text _fade-down" data-section-anchor="heading" data-animation="_animated">
 				Ox Collective
 			</span>
-			<nav class="main-nav">
-				<ul class="main-nav__list">
-					<li class="main-nav__list-item _menu-fade-down _home" data-animation="_animated, 0.1">
-						<span class="main-nav__link" data-section-anchor="heading">Home</span>
-					</li>
-					<li class="main-nav__list-item _menu-fade-down" data-animation="_animated, 0.1">
-						<span class="main-nav__link" data-section-anchor="process">Process</span>
-					</li>
-					<li class="main-nav__list-item _menu-fade-down" data-animation="_animated, 0.2">
-						<span class="main-nav__link" data-section-anchor="work">Work</span>
-					</li>
-					<li class="main-nav__list-item _menu-fade-down" data-animation="_animated, 0.3">
-						<span class="main-nav__link" data-section-anchor="services">Services</span>
-					</li>
-					<li class="main-nav__list-item _menu-fade-down" data-animation="_animated, 0.4">
-						<span class="main-nav__link" data-section-anchor="contact">Contact</span>
-					</li>
-				</ul>
-			</nav>
-			<button class="btn-menu menu-fade-down" type="button" data-animation="_animated">
-				<span class="btn-menu__stick btn-menu__stick-1"></span>
-				<span class="btn-menu__stick btn-menu__stick-2"></span>
-				<span class="btn-menu__stick btn-menu__stick-3"></span>
-				<span class="btn-menu__stick btn-menu__stick-4"></span>
-			</button>
+				<nav class="main-nav">
+					<ul class="main-nav__list">
+						<li class="main-nav__list-item _menu-fade-down _home" data-animation="_animated, 0.1">
+							<span class="main-nav__link" data-section-anchor="heading">Home</span>
+						</li>
+						<li class="main-nav__list-item _menu-fade-down" data-animation="_animated, 0.1">
+							<span class="main-nav__link" data-section-anchor="process">Process</span>
+						</li>
+						<li class="main-nav__list-item _menu-fade-down" data-animation="_animated, 0.2">
+							<span class="main-nav__link" data-section-anchor="work">Work</span>
+						</li>
+						<li class="main-nav__list-item _menu-fade-down" data-animation="_animated, 0.3">
+							<span class="main-nav__link" data-section-anchor="services">Services</span>
+						</li>
+						<li class="main-nav__list-item _menu-fade-down" data-animation="_animated, 0.4">
+							<span class="main-nav__link" data-section-anchor="contact">Contact</span>
+						</li>
+					</ul>
+				</nav>
+				<button class="btn-menu menu-fade-down" type="button" data-animation="_animated">
+					<span class="btn-menu__stick btn-menu__stick-1"></span>
+					<span class="btn-menu__stick btn-menu__stick-2"></span>
+					<span class="btn-menu__stick btn-menu__stick-3"></span>
+					<span class="btn-menu__stick btn-menu__stick-4"></span>
+				</button>
+			</div>
 		</div>
-	</div>
-</header>
-<main>
-	<div class="container">
-		<header class="heading" data-section="heading">
-			<h1 class="heading__title _fade-down" data-animation="_animated">
+	</header>
+	<main>
+		<div class="container">
+			<header class="heading" data-section="heading">
+				<h1 class="heading__title _fade-down" data-animation="_animated">
 				Products designed to set you apart from the herd.
 			</h1>
-			<svg
+				<svg
 				class="heading__icon _fade"
 				viewBox="0 0 524 524"
 				fill="none"
 				xmlns="http://www.w3.org/2000/svg"
 				data-animation="_animated-fade"
 			>
-				<g fill-rule="evenodd" clip-rule="evenodd" fill="#F2C94C">
-					<path
+					<g fill-rule="evenodd" clip-rule="evenodd" fill="#F2C94C">
+						<path
 						d="M98.5282 523.287l424.7588-98.529L424.759-.000003 0 98.5282 98.5282 523.287zm17.3108-27.773l379.671-88.069-88.07-379.671-379.6704 88.069 88.0694 379.671z"
 					/>
-					<path
+						<path
 						d="M127.594 200.427c2.299 9.909 6.994 17.259 14.097 22.088 7.108 4.822 15.807 6.029 26.066 3.649 10.303-2.39 17.562-7.298 21.819-14.756 4.256-7.464 5.238-16.131 2.939-26.04-2.302-9.927-7.006-17.304-14.108-22.11-7.1-4.798-15.784-6.032-26.086-3.642-10.259 2.38-17.534 7.315-21.798 14.75-4.258 7.44-5.232 16.135-2.929 26.061zm-40.5977 9.417c-2.4304-10.477-2.7307-20.384-.9082-29.718 1.8149-9.375 5.3265-17.843 10.5117-25.402 5.1822-7.562 11.8482-14.027 20.0412-19.315 8.182-5.33 17.314-9.167 27.397-11.506 10.107-2.344 19.995-2.92 29.666-1.73 9.684 1.14 18.517 4.01 26.522 8.513 7.959 4.51 14.838 10.568 20.595 18.187 5.749 7.577 9.839 16.605 12.269 27.083 2.422 10.437 2.728 20.363.907 29.718-1.821 9.35-5.335 17.8-10.49 25.375-5.201 7.586-11.879 14.009-20.063 19.338-8.162 5.308-17.295 9.143-27.402 11.487-10.083 2.339-19.971 2.916-29.66 1.749-9.694-1.182-18.515-4.009-26.502-8.536-7.988-4.527-14.865-10.566-20.6163-18.16-5.7501-7.599-9.8463-16.645-12.2674-27.083zM330.119 330.718l-58.015-50.969 47.906-11.113 31.532 30.316 14.172-40.917 45.178-10.48-28.572 71.055 66.903 58.603-47.858 11.101-38.853-37.155-20.679 50.964-47.329 10.979 35.615-82.384z"
 					/>
-				</g>
-			</svg>
-		</header>
-		<section class="about">
-			<h2 class="about__title _fade-down" data-animation="_animated">
+					</g>
+				</svg>
+			</header>
+			<section class="about">
+				<h2 class="about__title _fade-down" data-animation="_animated">
 				Ox is a scalable, grassroots product design team that can help you cultivate your juiciest
 				ideas to fruition.
 			</h2>
-			<div class="about__desc _fade-down" data-animation="_animated, 0.1">
+				<div class="about__desc _fade-down" data-animation="_animated, 0.1">
 				Great ideas are like seeds: they’re everywhere, yet few get to grow to their full potential.
 				Luck plays a role, but creating a successful and beloved product requires care, technique
 				and dedication. We offer just that; a seasoned, insightful and highly motivated team who can
 				come in at any phase and help products get where they need to be.
 			</div>
-			<button class="button _fade-down" type="button" data-section-anchor="contact" data-animation="_animated, 0.2">Let's talk!</a>
-		</section>
-		<section class="process" data-section="process">
-			<div class="section-subtitle _fade-down" data-animation="_animated">
+				<button class="button _fade-down" type="button" data-section-anchor="contact" data-animation="_animated, 0.2">Let's talk!</a>
+			</section>
+			<section class="process" data-section="process">
+				<div class="section-subtitle _fade-down" data-animation="_animated">
 				Process
 			</div>
-			<h2 class="process__section-title section-title _fade-down" data-animation="_animated">
+				<h2 class="process__section-title section-title _fade-down" data-animation="_animated">
 				How we do things
 			</h2>
-			<ul class="process__list">
-				<li class="process__list-item _fade-down" data-animation="_animated, 0.1">
-					<div class="process-item">
-						<div class="process-item__icon-container">
-							<img src="media/img/icon_listen.svg" alt="" />
-						</div>
-						<div class="process-item__content">
-							<h3 class="process-item__title">
+				<ul class="process__list">
+					<li class="process__list-item _fade-down" data-animation="_animated, 0.1">
+						<div class="process-item">
+							<div class="process-item__icon-container">
+								<img src="media/img/icon_listen.svg" alt=""/>
+							</div>
+							<div class="process-item__content">
+								<h3 class="process-item__title">
 								Listen
 							</h3>
-							<div class="process-item__desc">
+								<div class="process-item__desc">
 								We listen to you: what you're all about, what you know—and what you don’t. We listen
 								to your users through research to understand their reality, their needs and whether
 								this idea is a solid path to go down.
 							</div>
+							</div>
 						</div>
-					</div>
-				</li>
-				<li class="process__list-item _fade-down" data-animation="_animated, 0.2">
-					<div class="process-item">
-						<div class="process-item__icon-container">
-							<img src="media/img/icon_create.svg" alt="" />
-						</div>
-						<div class="process-item__content">
-							<h3 class="process-item__title">
+					</li>
+					<li class="process__list-item _fade-down" data-animation="_animated, 0.2">
+						<div class="process-item">
+							<div class="process-item__icon-container">
+								<img src="media/img/icon_create.svg" alt=""/>
+							</div>
+							<div class="process-item__content">
+								<h3 class="process-item__title">
 								Create
 							</h3>
-							<div class="process-item__desc">
+								<div class="process-item__desc">
 								We draw up a design strategy and get to work. We make prototypes and test them with
 								real people, and iterate based on what we learn until we find the minimum lovable
 								product. And then it’s launch time.
 							</div>
+							</div>
 						</div>
-					</div>
-				</li>
-				<li class="process__list-item _fade-down" data-animation="_animated, 0.3">
-					<div class="process-item">
-						<div class="process-item__icon-container">
-							<img src="media/img/icon_grow.svg" alt="" />
-						</div>
-						<div class="process-item__content">
-							<h3 class="process-item__title">
+					</li>
+					<li class="process__list-item _fade-down" data-animation="_animated, 0.3">
+						<div class="process-item">
+							<div class="process-item__icon-container">
+								<img src="media/img/icon_grow.svg" alt=""/>
+							</div>
+							<div class="process-item__content">
+								<h3 class="process-item__title">
 								Grow
 							</h3>
-							<div class="process-item__desc">
+								<div class="process-item__desc">
 								We can continue to support your product on its journey, improving and implementing
 								features. We work closely with you and your users to sustain a bright, meaningful
 								future for your brand and beyond.
 							</div>
+							</div>
 						</div>
-					</div>
-				</li>
-			</ul>
-		</section>
-		<section class="proud" data-section="work">
-			<div class="section-subtitle _fade-down" data-animation="_animated">
+					</li>
+				</ul>
+			</section>
+			<section class="proud" data-section="work">
+				<div class="section-subtitle _fade-down" data-animation="_animated">
 				Work
 			</div>
-			<h2 class="proud__section-title section-title _fade-down" data-animation="_animated">
+				<h2 class="proud__section-title section-title _fade-down" data-animation="_animated">
 				What we're proud of
 			</h2>
-			<ul class="proud__list clearfix">
-				<li class="proud__list-item _fade-down" data-animation="_animated, 0.1">
-					<div class="proud-item">
-						<div class="proud-item__slider" data-slick>
-							<img src="media/img/test_1.jpg" alt="">
-							<img src="media/img/test_2.jpg" alt="">
-							<img src="media/img/test_3.jpg" alt="">
-						</div>
-						<div class="proud-item__content">
-							<h3 class="proud-item__title">
+				<ul class="proud__list clearfix">
+					<li class="proud__list-item _fade-down" data-animation="_animated, 0.1">
+						<div class="proud-item">
+							<div class="proud-item__slider" data-slick>
+								<img src="media/img/digital-concert-hall/thumb-01.png" alt="">
+								<img src="media/img/digital-concert-hall/thumb-02.png" alt="">
+								<img src="media/img/digital-concert-hall/thumb-03.png" alt="">
+							</div>
+							<div class="proud-item__content">
+								<h3 class="proud-item__title">
 								Redefining the digital viewing landscape of the Berliner Philharmoniker.
 							</h3>
-							<div class="proud-item__desc">
+								<div class="proud-item__desc">
 								We can continue to support your product on its journey, improving and implementing
 								features. We work closely with you and your users to sustain a bright, meaningful
 								future for your brand and beyond.
 							</div>
+							</div>
 						</div>
-					</div>
-				</li>
-				<li class="proud__list-item _fade-down" data-animation="_animated, 0.2">
-					<div class="proud-item">
-						<div class="proud-item__slider" data-slick>
-							<img src="media/img/test_1.jpg" alt="">
-							<img src="media/img/test_2.jpg" alt="">
-							<img src="media/img/test_3.jpg" alt="">
-						</div>
-						<div class="proud-item__content">
-							<h3 class="proud-item__title">
+					</li>
+					<li class="proud__list-item _fade-down" data-animation="_animated, 0.2">
+						<div class="proud-item">
+							<div class="proud-item__slider" data-slick>
+								<img src="media/img/testflight/thumb-01.png" alt="">
+								<img src="media/img/testflight/thumb-02.png" alt="">
+								<img src="media/img/testflight/thumb-03.png" alt="">
+							</div>
+							<div class="proud-item__content">
+								<h3 class="proud-item__title">
 								Allowing the digital experience to be possible for everyone via TestFlight.
 							</h3>
-							<div class="proud-item__desc">
+								<div class="proud-item__desc">
 								We can continue to support your product on its journey, improving and implementing
 								features. We work closely with you and your users to sustain a bright, meaningful
 								future for your brand and beyond.
 							</div>
+							</div>
 						</div>
-					</div>
-				</li>
-				<li class="proud__list-item _fade-down" data-animation="_animated, 0.3">
-					<div class="proud-item">
-						<div class="proud-item__slider" data-slick>
-							<img src="media/img/test_1.jpg" alt="">
-							<img src="media/img/test_2.jpg" alt="">
-							<img src="media/img/test_3.jpg" alt="">
-						</div>
-						<div class="proud-item__content">
-							<h3 class="proud-item__title">
+					</li>
+					<li class="proud__list-item _fade-down" data-animation="_animated, 0.3">
+						<div class="proud-item">
+							<div class="proud-item__slider" data-slick>
+								<img src="media/img/hverfisskipulag/thumb-01.png" alt="">
+								<img src="media/img/hverfisskipulag/thumb-02.png" alt="">
+								<img src="media/img/hverfisskipulag/thumb-03.png" alt="">
+							</div>
+							<div class="proud-item__content">
+								<h3 class="proud-item__title">
 								Bringing the City of Reykjavik closer to its citizens through human-centered design.
 							</h3>
-							<div class="proud-item__desc">
+								<div class="proud-item__desc">
 								We can continue to support your product on its journey, improving and implementing
 								features. We work closely with you and your users to sustain a bright, meaningful
 								future for your brand and beyond.
 							</div>
+							</div>
 						</div>
-					</div>
-				</li>
-			</ul>
-		</section>
-		<section class="portfolio">
-			<h2 class="portfolio__title _fade-down" data-animation="_animated">
+					</li>
+				</ul>
+			</section>
+			<section class="portfolio">
+				<h2 class="portfolio__title _fade-down" data-animation="_animated">
 				Some of the brands our members have helped
 			</h2>
-			<div class="portfolio__brands"></div>
-		</section>
-		<section class="services" data-section="services">
-			<div class="section-subtitle _fade-down" data-animation="_animated">
+				<div class="portfolio__brands">
+					<img src="media/img/brands.png" alt="Brands">
+				</div>
+			</section>
+			<section class="services" data-section="services">
+				<div class="section-subtitle _fade-down" data-animation="_animated">
 				Services
 			</div>
-			<h2 class="services__section-title section-title _fade-down" data-animation="_animated">
+				<h2 class="services__section-title section-title _fade-down" data-animation="_animated">
 				The tools we bring to the field
 			</h2>
-			<ul class="services__list">
-				<li class="services__list-item _fade-down" data-animation="_animated">
-					<div class="services-item">
-						<h3 class="services-item__title">
+				<ul class="services__list">
+					<li class="services__list-item _fade-down" data-animation="_animated">
+						<div class="services-item">
+							<h3 class="services-item__title">
 							Product Design
 						</h3>
-						<div class="services-item__desc">
+							<div class="services-item__desc">
 							Designing and launching your product, app, or concept – from a sketch to the store.
 						</div>
-					</div>
-				</li>
-				<li class="services__list-item _fade-down" data-animation="_animated">
-					<div class="services-item">
-						<h3 class="services-item__title">
+						</div>
+					</li>
+					<li class="services__list-item _fade-down" data-animation="_animated">
+						<div class="services-item">
+							<h3 class="services-item__title">
 							UX Design
 						</h3>
-						<div class="services-item__desc">
+							<div class="services-item__desc">
 							Helping you identify core bottlenecks and offer meaningful solutions for faster
 							production.
 						</div>
-					</div>
-				</li>
-				<li class="services__list-item _fade-down" data-animation="_animated">
-					<div class="services-item">
-						<h3 class="services-item__title">
+						</div>
+					</li>
+					<li class="services__list-item _fade-down" data-animation="_animated">
+						<div class="services-item">
+							<h3 class="services-item__title">
 							Interface Design
 						</h3>
-						<div class="services-item__desc">
+							<div class="services-item__desc">
 							Making your product interface come alive through accessible and human-centered design.
 						</div>
-					</div>
-				</li>
-				<li class="services__list-item _fade-down" data-animation="_animated">
-					<div class="services-item">
-						<h3 class="services-item__title">
+						</div>
+					</li>
+					<li class="services__list-item _fade-down" data-animation="_animated">
+						<div class="services-item">
+							<h3 class="services-item__title">
 							Branding and Visual Identity
 						</h3>
-						<div class="services-item__desc">
+							<div class="services-item__desc">
 							Creating an identity that resonates with your users and is visually consistent across
 							every touchpoint - branding that goes beyond just logos.
 						</div>
-					</div>
-				</li>
-				<li class="services__list-item _fade-down" data-animation="_animated">
-					<div class="services-item">
-						<h3 class="services-item__title">
+						</div>
+					</li>
+					<li class="services__list-item _fade-down" data-animation="_animated">
+						<div class="services-item">
+							<h3 class="services-item__title">
 							Workshops
 						</h3>
-						<div class="services-item__desc">
+							<div class="services-item__desc">
 							Helping you better understand your audience and provide meaningful solutions.
 						</div>
-					</div>
-				</li>
-				<li class="services__list-item _fade-down" data-animation="_animated">
-					<div class="services-item">
-						<h3 class="services-item__title">
+						</div>
+					</li>
+					<li class="services__list-item _fade-down" data-animation="_animated">
+						<div class="services-item">
+							<h3 class="services-item__title">
 							Direction and Strategy
 						</h3>
-						<div class="services-item__desc">
+							<div class="services-item__desc">
 							Pointing your business towards the bigger picture by setting out strategical goals for
 							your team and product.
 						</div>
-					</div>
-				</li>
-			</ul>
-		</section>
-		<section class="contacts" data-section="contact">
-			<div class="contacts__leftside">
-				<img class="contacts__photo-1 _fade-down" src="media/img/contacts_planty.png" data-animation="_animated" alt="" />
-				<img class="contacts__photo-2 _fade-down" src="media/img/contacts_desk.png" data-animation="_animated" alt="" />
-				<img class="contacts__photo-3 _fade-down" src="media/img/contacts_friends.png" data-animation="_animated" alt="" />
-			</div>
-			<div class="contacts__rightside">
-				<div class="section-subtitle _fade-down" data-animation="_animated">Contact</div>
-				<h2 class="contacts__section-title _fade-down" data-animation="_animated">
+						</div>
+					</li>
+				</ul>
+			</section>
+			<section class="contacts" data-section="contact">
+				<div class="contacts__leftside">
+					<img class="contacts__photo-1 _fade-down" src="media/img/contacts_planty.png" data-animation="_animated" alt=""/>
+					<img class="contacts__photo-2 _fade-down" src="media/img/contacts_desk.png" data-animation="_animated" alt=""/>
+					<img class="contacts__photo-3 _fade-down" src="media/img/contacts_friends.png" data-animation="_animated" alt=""/>
+				</div>
+				<div class="contacts__rightside">
+					<div class="section-subtitle _fade-down" data-animation="_animated">Contact</div>
+					<h2 class="contacts__section-title _fade-down" data-animation="_animated">
 					Ox Collective.<br> Made in Berlin, available around the globe.
 				</h2>
-				<div class="contacts__desc _fade-down" data-animation="_animated">
+					<div class="contacts__desc _fade-down" data-animation="_animated">
 					We’re great at working near and far. Let’s make something great!
 				</div>
-				<div class="contacts__mail">
-					<div class="contacts__mail-text">
+					<div class="contacts__mail">
+						<div class="contacts__mail-text">
 						Get in touch:
 					</div>
-					<a class="contacts__mail-link" href="mailto:hello@oxcollective.com">
+						<a class="contacts__mail-link" href="mailto:hello@oxcollective.com">
 						hello@oxcollective.com
 					</a>
+					</div>
 				</div>
-			</div>
-		</section>
-	</div>
-	<footer class="main-footer">
-		<div class="container">
-			<div class="main-footer__top">
-				<img class="main-footer__icon _fade" src="media/img/icon_ox.svg" data-animation="_animated-fade" alt="" />
-				<div class="main-footer__sections-container">
-					<section class="main-footer__section _fade-down" data-animation="_animated">
-						<h3 class="main-footer__section-title">
+			</section>
+		</div>
+		<footer class="main-footer">
+			<div class="container">
+				<div class="main-footer__top">
+					<img class="main-footer__icon _fade" src="media/img/icon_ox.svg" data-animation="_animated-fade" alt=""/>
+					<div class="main-footer__sections-container">
+						<section class="main-footer__section _fade-down" data-animation="_animated">
+							<h3 class="main-footer__section-title">
 							Visit us
 						</h3>
-						<div class="main-footer__company-title">
+							<div class="main-footer__company-title">
 							Ox Collective GbR
 						</div>
-						<address class="main-footer__address">
-							Oranienstr. 6<br />
-							Treppenhaus 4<br />
+							<address class="main-footer__address">
+							Oranienstr. 6<br/>
+							Treppenhaus 4<br/>
 							10997 Berlin
 						</address>
-					</section>
-					<section class="main-footer__section _fade-down" data-animation="_animated, 0.25">
-						<h3 class="main-footer__section-title">
+						</section>
+						<section class="main-footer__section _fade-down" data-animation="_animated, 0.25">
+							<h3 class="main-footer__section-title">
 							Say Hello
 						</h3>
-						<a class="main-footer__mail" href="mailto:hello@oxcollective.com">
+							<a class="main-footer__mail" href="mailto:hello@oxcollective.com">
 							hello@oxcollective.com
 						</a>
-					</section>
+						</section>
+					</div>
 				</div>
-			</div>
-			<div class="main-footer__bottom">
-				<a class="main-footer__bottom-link _fade-down" href="#" target="_blank" rel="noopener noreferrer" data-animation="_animated">
+				<div class="main-footer__bottom">
+					<a class="main-footer__bottom-link _fade-down" href="#" target="_blank" rel="noopener noreferrer" data-animation="_animated">
 					Impressum
 				</a>
-				<div class="main-footer__owner _fade-down" data-animation="_animated">
+					<div class="main-footer__owner _fade-down" data-animation="_animated">
 					©2019, Ox Collective GbR All Rights Reserved
 				</div>
+				</div>
 			</div>
-		</div>
-	</footer>
-</main>
+		</footer>
+	</main>
 
 {% endblock content %}
