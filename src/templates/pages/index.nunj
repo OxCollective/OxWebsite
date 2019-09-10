@@ -334,7 +334,7 @@
 					</div>
 				</div>
 				<div class="main-footer__bottom">
-					<a class="main-footer__bottom-link _fade-down" href="#" target="_blank" rel="noopener noreferrer" data-animation="_animated">
+					<a class="main-footer__bottom-link _fade-down" href="impressum.html" target="_blank" rel="noopener noreferrer" data-animation="_animated">
 					Impressum
 				</a>
 					<div class="main-footer__owner _fade-down" data-animation="_animated">
