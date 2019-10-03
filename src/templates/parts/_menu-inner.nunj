@@ -1,0 +1,22 @@
+<span class="main-header__logo-text _fade-down" data-animation="_animated">
+	<a class="main-header__logo-link" href="index.html">Ox Collective</a>
+</span>
+<nav class="main-nav">
+	<ul class="main-nav__list">
+		<li class="main-nav__list-item _menu-fade-down _home" data-animation="_animated, 0.1">
+			<a href="index.html" class="main-nav__link">Home</a>
+		</li>
+		<li class="main-nav__list-item _menu-fade-down" data-animation="_animated, 0.1">
+			<a href="index.html#process" class="main-nav__link">Process</a>
+		</li>
+		<li class="main-nav__list-item _menu-fade-down" data-animation="_animated, 0.2">
+			<a href="index.html#work" class="main-nav__link _active">Work</a>
+		</li>
+		<li class="main-nav__list-item _menu-fade-down" data-animation="_animated, 0.3">
+			<a href="index.html#services" class="main-nav__link">Services</a>
+		</li>
+		<li class="main-nav__list-item _menu-fade-down" data-animation="_animated, 0.4">
+			<a href="index.html#contact" class="main-nav__link">Contact</a>
+		</li>
+	</ul>
+</nav>

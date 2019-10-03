@@ -1,0 +1,87 @@
+.review
+	position: relative
+	z-index: 1
+	max-width: 527px
+	margin: 0 auto
+	&__photo
+		position: relative
+		+round(128px)
+		margin: 0 auto 24px auto
+		overflow: hidden
+		background: #ffffff
+		img
+			position: absolute
+			left: 0
+			top: 0
+			width: 100%
+			height: 100%
+			object-fit: cover
+	&__name
+		font-family: $font-family-accident
+		+text(20px)
+		+ls(-0.5, 20)
+		text-align: center
+	&__info
+		margin-bottom: 24px
+		+text(18px)
+		text-align: center
+	&__text
+		+text(18px)
+		+ls(-0.1, 18)
+		text-align: center
+		p
+			margin-bottom: 22px
+			&:last-child
+				margin-bottom: 0
+	&__quotes
+		display: block
+		width: 95px
+		height: 78px
+		fill: #ffffff
+		margin: 0 auto
+	&__icon
+		width: 95px
+		height: 78px
+		margin: 0 auto 24px auto
+		background: url("../img/quotes.png") center no-repeat
+		background-size: contain
+	+min-screen($breakpoint-sm)
+		&__info
+			margin-bottom: 30px
+		&__content
+			display: flex
+			justify-content: flex-end
+		&__text
+			width: 301px
+			flex-shrink: 0
+			margin-left: 15px
+			padding-top: 2px
+			text-align: left
+		&__icon
+			flex-shrink: 0
+			margin: 0
+	+min-screen($breakpoint-md)
+		max-width: 536px
+		&__text
+			width: 312px
+			margin-left: 24px
+	+min-screen($breakpoint-lg)
+		max-width: 547px
+		&__text
+			width: 333px
+			+text(21px, 25px)
+			+ls(-0.1, 21)
+		&__photo
+			+square(192px)
+			margin-bottom: 32px
+		&__name
+			margin-bottom: 3px
+			+text(32px, 36px)
+			+ls(-0.5, 32)
+		&__info
+			margin-bottom: 46px
+			+text(24px)
+			+ls(-0.5, 24)
+	+min-screen($breakpoint-xl)
+		&__text
+			width: 357px

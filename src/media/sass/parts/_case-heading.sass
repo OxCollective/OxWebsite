@@ -1,0 +1,73 @@
+.case-heading
+	position: relative
+	height: 432px
+	padding: 117px $mob-site-paddings
+	overflow: hidden
+	background-color: transparent
+	color: #ffffff
+	box-sizing: border-box
+	+min-screen($breakpoint-md)
+		height: 56.25vw
+		max-height: 720px
+		padding-left: $tablet-site-paddings
+		padding-right: $tablet-site-paddings
+	+min-screen($breakpoint-lg)
+		padding: 125px $desktop-site-paddings
+	+min-screen($breakpoint-xl)
+		padding-top: 150px
+	&__video-container
+		position: absolute
+		top: 0
+		left: 0
+		z-index: -1
+		width: 100%
+		height: 432px
+		overflow: hidden
+		pointer-events: none
+		will-change: transform
+		+min-screen($breakpoint-md)
+			height: 56.25vw
+			max-height: 720px
+	&__video
+		position: absolute
+		width: 100%
+		height: 100%
+		object-fit: cover
+		opacity: 0
+		z-index: 2
+	&__video-poster
+		position: absolute
+		width: 100%
+		height: 100%
+		object-fit: cover
+		z-index: 1
+	&__title
+		position: relative
+		z-index: 2
+		font-family: $font-family-accident
+		font-size: 40px
+		line-height: 1.1
+		font-weight: 900
+		letter-spacing: -0.025em
+		text-align: center
+		+min-screen($breakpoint-lg)
+			font-size: 64px
+		+min-screen($breakpoint-xl)
+			font-size: 80px
+	&__line
+		display: block
+		width: 128px
+		height: 1px
+		background: #ffffff
+		margin: 16px auto 0 auto
+		+min-screen($breakpoint-lg)
+			width: 192px
+	&__title-small
+		display: block
+		font-family: $font-family-base
+		font-size: 18px
+		font-weight: 300
+		text-transform: uppercase
+	&__title-big
+		display: block
+		filter: url(#InnerShadow)

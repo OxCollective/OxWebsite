@@ -1,0 +1,25 @@
+.contact
+	&__title
+		margin-bottom: 26px
+		font-family: $font-family-accident
+		+text(32px, 35px)
+		+ls(-1, 32)
+	&__mail
+		+text(18px)
+	&__mail-link
+		display: inline-block
+		vertical-align: top
+		text-decoration: underline
+	+min-screen($breakpoint-sm)
+		text-align: center
+		.section-subtitle
+			&:before
+				right: 0
+				margin: auto
+	+min-screen($breakpoint-lg)
+		&__title
+			+text(40px, 44px)
+			+ls(-1.5, 40)
+		&__mail
+			+text(24px)
+			+ls(-0.5, 24)

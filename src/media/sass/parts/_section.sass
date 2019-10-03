@@ -1,0 +1,47 @@
+.section
+	padding: 64px 0
+	&._small
+		padding: 48px 0
+	&._white
+		background: #ffffff
+	&._grey
+		background: $silver
+	&._review
+		position: relative
+		padding-top: 48px
+		overflow: hidden
+		&:before
+			content: ''
+			position: absolute
+			top: 0
+			right: 0
+			z-index: 0
+			width: 100vw
+			height: 100%
+			background-color: $theme-color-1
+	&._contact
+		padding-bottom: 96px
+	+min-screen($breakpoint-md)
+		&._small
+			padding: 64px 0
+		&._review
+			&:before
+				right: $tablet-site-paddings
+		&._next-project
+			padding: 96px 0
+	+min-screen($breakpoint-lg)
+		padding: 96px 0
+		&._small
+			padding: 96px 0
+		&._review
+			padding-top: 64px
+			&:before
+				right: calc(50% - 345px)
+		&._next-project
+			padding: 128px 0
+		&._contact
+			padding-bottom: 128px
+	+min-screen($breakpoint-xl)
+		&._review
+			&:before
+				right: calc(50% - 370px)

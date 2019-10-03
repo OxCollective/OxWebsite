@@ -12,50 +12,33 @@
 			margin-bottom: 95px
 		+min-screen($breakpoint-xl)
 			margin-bottom: 120px
-	&__list
-		+min-screen($breakpoint-sm)
-			max-width: 527px
-			margin: 0 auto
-		+min-screen($breakpoint-md)
-			max-width: 648px
-		+min-screen($breakpoint-lg)
-			max-width: 800px
-		+min-screen($breakpoint-xl)
-			max-width: 1072px
 	&__list-item
 		+min-screen($breakpoint-sm)
 			&:nth-child(odd)
 				.proud-item__content
 					order: 1
 					text-align: right
-				.proud-item__slider
+				.proud-item__slider-col
 					order: 2
 			&:nth-child(even)
 				.proud-item__content
 					order: 2
 					text-align: left
-				.proud-item__slider
+				.proud-item__slider-col
 					order: 1
 		+min-screen($breakpoint-lg)
 			&:nth-child(odd)
-				margin-right: 55px
-				float: left
 				.proud-item__content
 					order: 2
 					text-align: left
-				.proud-item__slider
+				.proud-item__slider-col
 					order: 1
 			&:nth-child(even)
-				float: right
 				.proud-item__content
-					order: 2
-				.proud-item__slider
 					order: 1
-			&:nth-child(2)
-				padding-top: 390px
-		+min-screen($breakpoint-xl)
-			&:nth-child(odd)
-				margin-right: 72px
+					text-align: right
+				.proud-item__slider-col
+					order: 2
 		&:not(:last-of-type)
 			margin-bottom: 45px
 			+min-screen($breakpoint-sm)

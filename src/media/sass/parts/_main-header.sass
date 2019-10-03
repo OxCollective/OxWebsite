@@ -1,16 +1,30 @@
 .main-header
+	$parent-selector: &
 	position: fixed
 	top: 0
 	left: 0
 	z-index: 10
 	width: 100%
 	padding: 20px 0
-	transition: background-color $default-transition-duration $default-transition-function
+	transition: background-color 0.35s $default-transition-function, padding 0.35s $default-transition-function
+	user-select: none
+	&._light
+		color: #ffffff
+		#{$parent-selector}
+			&__logo-text,
+			&__logo-link
+				color: #ffffff
 	&._with-bg
 		background-color: rgba(246, 246, 246, 0.97)
-		transition: background-color $default-transition-duration $default-transition-function
+		color: #000000
+		#{$parent-selector}
+			&__logo-text,
+			&__logo-link
+				color: #000000
 	+min-screen($breakpoint-md)
 		padding: 38px 0
+		&._with-bg
+			padding: 16px 0 13px 0
 	&__inner
 		display: flex
 		align-items: center
@@ -24,3 +38,13 @@
 		letter-spacing: -0.018em
 		color: #000
 		pointer-events: none
+		+max-screen($breakpoint-md - 1)
+			margin-bottom: -2px
+	&__logo-link
+		pointer-events: all
+		+desktop
+			transition: color $default-transition-duration $default-transition-function
+			&:hover
+				color: #9c9c9c
+			&:active
+				color: #82640c

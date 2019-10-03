@@ -5,8 +5,21 @@
 	text-transform: uppercase
 	font-size: 18px
 	font-weight: 300
+	&._desktop
+		display: none
+	&._v2
+		margin-bottom: 15px
+		&:before
+			width: 192px
+	+min-screen($breakpoint-sm)
+		&._desktop
+			display: block
+		&._mobile
+			display: none
 	+min-screen($breakpoint-lg)
 		padding-top: 95px
+		&._v2
+			padding-top: 99px
 	&::before
 		content: ''
 		position: absolute
@@ -16,4 +29,4 @@
 		height: 1px
 		background-color: #000
 		+min-screen($breakpoint-lg)
-			width: 190px
+			width: 192px

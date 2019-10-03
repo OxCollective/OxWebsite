@@ -15,8 +15,105 @@
 	</head>
 	<body>
 		<div class="wrapper">
-			{% block content %}
-			{% endblock content %}
+			<header class="main-header{% if headerModificators %} {{ headerModificators }}{% endif %}">
+				<div class="container">
+					<div class="main-header__inner">
+						{% if homepage %}
+							{% include "parts/_menu-home.nunj" %}
+						{% else %}
+							{% include "parts/_menu-inner.nunj" %}
+						{% endif %}
+						<button class="btn-menu _fade-down" type="button" data-animation="_animated">
+							<span class="btn-menu__stick btn-menu__stick-1"></span>
+							<span class="btn-menu__stick btn-menu__stick-2"></span>
+							<span class="btn-menu__stick btn-menu__stick-3"></span>
+							<span class="btn-menu__stick btn-menu__stick-4"></span>
+						</button>
+					</div>
+				</div>
+			</header>
+
+			<main>
+				{% block content %}
+				{% endblock content %}
+			</main>
+
+			<footer class="main-footer">
+				<div class="container">
+					<div class="main-footer__top">
+						<img class="main-footer__icon _fade" src="media/img/icon_ox.svg" data-animation="_animated-fade" alt="" />
+						<div class="main-footer__sections-container">
+							<section class="main-footer__section _fade-down" data-animation="_animated">
+								<h3 class="main-footer__section-title">
+									Visit us
+								</h3>
+								<div class="main-footer__company-title">
+									Ox Collective GbR
+								</div>
+								<address class="main-footer__address">
+									Oranienstr. 6<br />
+									Treppenhaus 4<br />
+									10997 Berlin
+								</address>
+							</section>
+							<section class="main-footer__section _fade-down" data-animation="_animated, 0.25">
+								<h3 class="main-footer__section-title">
+									Say Hello
+								</h3>
+								<a class="main-footer__mail" href="mailto:hello@oxcollective.com">
+									hello@oxcollective.com
+								</a>
+							</section>
+						</div>
+					</div>
+					<div class="main-footer__bottom">
+						<a class="main-footer__bottom-link _fade-down" href="impressum.html" target="_blank" rel="noopener noreferrer" data-animation="_animated">
+							Impressum
+						</a>
+						<div class="main-footer__owner _fade-down" data-animation="_animated">
+							©2019, Ox Collective GbR All Rights Reserved
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+		<div class="invisible-container">
+			<svg width="0px" height="0px">
+				<defs>
+					<filter id="InnerShadow">
+						<feOffset
+								dx='0'
+								dy='1.5'
+						/>
+						<feGaussianBlur
+								stdDeviation='1.5'
+								result='offset-blur'
+						/>
+						<feComposite
+								operator='out'
+								in='SourceGraphic'
+								in2='offset-blur'
+								result='inverse'
+						/>
+						<feFlood
+								flood-color='black'
+								flood-opacity='0.6'
+								result='color'
+						/>
+						<feComposite
+								operator='in'
+								in='color'
+								in2='inverse'
+								result='shadow'
+						/>
+						<feComposite
+								operator='over'
+								in='shadow'
+								in2='SourceGraphic'
+						/>
+					</filter>
+				</defs>
+			</svg>
 		</div>
 		{% block scripts %}
 			<script src="media/js/bundle.js?hash"></script>

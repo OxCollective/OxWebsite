@@ -219,3 +219,25 @@
 	padding: 0
 	background: none
 	border: none
+
+=text($fz: false, $lh: false)
+	@if $fz
+		font-size: $fz
+	@if $lh
+		@if unit($lh) == "px" and unit($fz) == "px"
+			$lh: round($lh / $fz * 10) / 10
+		line-height: $lh
+
+=square($size: false)
+	@if $size
+		width: $size
+		height: $size
+
+=round($size: false, $setBorderRadius: true)
+	@if $size
+		+square($size)
+		@if $setBorderRadius
+			border-radius: 100%
+
+=ls($letter-spacing, $context)
+	letter-spacing: unquote(round($letter-spacing / $context * 1000) / 1000 + 'em')

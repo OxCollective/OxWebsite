@@ -1,0 +1,89 @@
+.description
+	$parent-selector: &
+	+text(18px, 27px)
+	+ls(-0.1, 18)
+	overflow: hidden
+	p, ul, ol
+		margin-bottom: 27px
+		&:last-child
+			margin-bottom: 0
+	&__title
+		margin-bottom: 35px
+		margin-top: 0
+		font-family: $font-family-accident
+		font-weight: 900
+		+text(32px, 35px)
+		+ls(-1, 32)
+		&:last-child
+			margin-bottom: 0
+	&__block
+		margin-bottom: 61px
+		&:last-child
+			margin-bottom: 0
+	&__image,
+	&__image-col
+		img
+			display: block
+			margin: 0 auto
+			max-width: 100%
+			width: 100%
+			height: auto
+	&__image-container
+		margin-bottom: 26px
+	&__image-text
+		+text(16px, 19px)
+		+ls(-0.1, 16)
+		color: $text-grey
+	&__col
+		margin-bottom: 64px
+		box-sizing: border-box
+		&:last-child
+			margin-bottom: 0
+	+min-screen($breakpoint-sm)
+		&__col
+			&._image
+				width: 50%
+				float: left
+				padding-right: 8px
+				margin-right: 8px
+				margin-bottom: 55px
+			#{$parent-selector}
+				&__title
+					display: flex
+					flex-direction: column
+	+min-screen($breakpoint-md)
+		&__col
+			&._image
+				padding-right: 12px
+				margin-right: 12px
+				margin-bottom: 62px
+	+min-screen($breakpoint-lg)
+		+text(21px)
+		line-height: 1.45
+		+ls(-0.1, 21)
+		p, ul, ol
+			margin-bottom: 30px
+		&__title
+			+text(40px)
+			+ls(-1.5, 40)
+		&__block
+			margin-bottom: 94px
+		&__image-text
+			+text(18px, 23px)
+			+ls(-0.1, 18)
+		&__row
+			display: flex
+			justify-content: flex-start
+		&__col
+			flex-shrink: 0
+			&._image
+				float: none
+				margin-right: 0
+				margin-bottom: 0
+			&._text
+				width: 344px
+				padding-left: 12px
+	+min-screen($breakpoint-xl)
+		&__col
+			&._text
+				width: 370px

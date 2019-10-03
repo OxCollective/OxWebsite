@@ -1,0 +1,21 @@
+.list
+	list-style: none
+	padding: 0
+	li
+		position: relative
+		padding-left: 33px
+		margin-bottom: 27px
+		&:last-child
+			margin-bottom: 0
+	&__icon
+		position: absolute
+		left: 0
+		top: 0
+	+min-screen($breakpoint-md)
+		li
+			padding-left: 36px
+	+min-screen($breakpoint-lg)
+		li
+			margin-bottom: 30px
+	+min-screen($breakpoint-xl)
+		padding-left: 10px

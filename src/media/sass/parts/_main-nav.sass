@@ -29,7 +29,6 @@
 				color: #000
 		+min-screen($breakpoint-md)
 			margin: 0 12px
-		+desktop
 			&._home
 				display: none
 	&__link
@@ -42,7 +41,9 @@
 		letter-spacing: -0.025em
 		color: #000
 		cursor: pointer
-		&._selected
+		pointer-events: auto
+		&._selected,
+		&._active
 			color: #9c9c9c
 		+desktop
 			transition: color $default-transition-duration $default-transition-function
@@ -52,11 +53,16 @@
 			&:active
 				color: #82640c
 				transition: color $default-transition-duration $default-transition-function
-			&._selected
-				color: $theme-color-1
-				transition: color $default-transition-duration $default-transition-function
 		+min-screen($breakpoint-md)
 			padding: 0
 			font-family: $font-family-base
 			font-size: 18px
 			font-weight: 300
+			._light &
+				color: #ffffff
+			._with-bg &
+				color: #000000
+			&._selected,
+			&._active
+				color: $theme-color-1
+				transition: color $default-transition-duration $default-transition-function

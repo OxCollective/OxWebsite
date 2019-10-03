@@ -1,0 +1,62 @@
+.next-project
+	box-sizing: border-box
+	&__image,
+	&__info
+		box-sizing: border-box
+	&__image
+		margin-bottom: 17px
+	&__image-wrap
+		position: relative
+		display: block
+		height: 0
+		padding-bottom: 75.685%
+		overflow: hidden
+		img
+			position: absolute
+			width: 100%
+			height: 100%
+			object-fit: cover
+		+desktop
+			transition: transform $default-transition-duration $default-transition-function, box-shadow $default-transition-duration $default-transition-function
+			&:hover
+				transform: scale(1.05)
+				box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.2)
+	&__title
+		font-family: $font-family-accident
+		+text(32px, 35px)
+		+ls(-1, 32)
+	&__link
+		+desktop
+			transition: color $default-transition-duration $default-transition-function
+			&:hover
+				color: #9c9c9c
+			&:active
+				color: #82640c
+	+min-screen($breakpoint-sm)
+		display: flex
+		margin-left: -8px
+		margin-right: -8px
+		&__image,
+		&__info
+			flex-shrink: 0
+			width: 50%
+			padding-left: 8px
+			padding-right: 8px
+		&__image
+			margin-bottom: 0
+	+min-screen($breakpoint-md)
+		margin-left: -12px
+		margin-right: -12px
+		&__image,
+		&__info
+			padding-left: 12px
+			padding-right: 12px
+	+min-screen($breakpoint-lg)
+		&__title
+			+text(40px, 44px)
+			+ls(-1.5, 40)
+	+min-screen($breakpoint-xl)
+		&__title
+			+text(64px)
+			line-height: 1.07
+			+ls(-2, 64)

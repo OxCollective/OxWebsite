@@ -71,7 +71,7 @@ ScrollHelper.prototype = {
 
 		let self = this;
 		TweenMax.to(this.$scrollTarget, time, {
-			scrollTo: { y: value - 100, autoKill: false },
+			scrollTo: { y: value - 64, autoKill: false },
 			ease: time < 0.75 ? Power3.easeOut : Circ.easeInOut,
 			onComplete: function() {
 				self._busy = false;

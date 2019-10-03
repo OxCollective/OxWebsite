@@ -12,10 +12,15 @@
 	margin: auto
 	box-sizing: content-box
 	padding: 0 $mob-site-paddings
+	&._small
+		max-width: 690px
 	+min-screen($breakpoint-md)
 		padding: 0 $tablet-site-paddings
 	+min-screen($breakpoint-lg)
 		padding: 0 $desktop-site-paddings
+	+min-screen($breakpoint-xl)
+		&._small
+			max-width: 740px
 
 .row
 	@extend .clearfix

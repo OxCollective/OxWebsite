@@ -25,6 +25,7 @@ global.OX = new function OX() { // eslint-disable-line
 	this.modules = {
 		Sliders: require('./modules/Sliders'),
 		Menu: require('./modules/Menu'),
+		TopParallax: require('./modules/TopParallax'),
 	};
 
 	const ShowHelper2 = this.helpers.ShowHelper2;
@@ -130,7 +131,7 @@ global.OX = new function OX() { // eslint-disable-line
 					}
 				}
 
-				let needAddScrolled = window.pageYOffset > 0;	
+				let needAddScrolled = window.pageYOffset > 0;
 				if(scrolledAdded != needAddScrolled){
 					scrolledAdded = needAddScrolled
 
@@ -148,17 +149,32 @@ global.OX = new function OX() { // eslint-disable-line
 		})();
 
 		//header bg toggle
-		(function(){
-			let $header = $(document).find('.main-header');
-			let headerBackgroudShowed = false;
-			window.addEventListener('scroll', e => {
-				let newState = window.pageYOffset > 100;
-				if( newState != headerBackgroudShowed ){
-					headerBackgroudShowed  = newState;
-					headerBackgroudShowed ? $header.addClass('_with-bg') : $header.removeClass('_with-bg')
+		let $header = $(document).find('.main-header');
+		let headerBackgroundShowed = false;
+
+		const updateScrolledState = () => {
+			let newState = window.pageYOffset > 100;
+			if( newState != headerBackgroundShowed ){
+				headerBackgroundShowed  = newState;
+				headerBackgroundShowed ? $header.addClass('_with-bg') : $header.removeClass('_with-bg')
+			}
+		};
+
+		window.addEventListener('scroll', updateScrolledState);
+		updateScrolledState();
+
+		$('video').each(function(index, video){
+			TweenMax.set(video, {alpha: 0});
+
+			let isStarted = false;
+			video.addEventListener('play', () => {
+				if(!isStarted){
+					isStarted = true;
+					TweenMax.fromTo(video, 0.15, {alpha: 0}, {alpha: 1})
 				}
 			})
-		})()
+		})
+
 	});
 }();
 

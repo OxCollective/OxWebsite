@@ -105,7 +105,7 @@
 	transition: transform 0.35s ease-out, opacity 0.35s ease-out
 
 ._menu-fade-down
-	+desktop
+	+min-screen($breakpoint-md)
 		transform: translate(0,-20px)
 		opacity: 0
 		transition: transform 0.35s ease-out, opacity 0.35s ease-out
@@ -158,4 +158,14 @@
 
 ._scale-x
 	transform: scaleX(0)
-	transition: scale 0.35 ease-out
+	transition: scale 0.35s ease-out
+
+._zoom-out
+	opacity: 0
+	transform: scale(1.05)
+	transition: opacity 0.5s ease-out, transform 0.5s ease-out
+	will-change: transform
+
+._zoom-started
+	opacity: 1
+	transform: scale(1)

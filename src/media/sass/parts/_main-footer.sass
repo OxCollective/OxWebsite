@@ -2,7 +2,7 @@
 	padding: 35px 0 16px
 	background-color: #333
 	+min-screen($breakpoint-lg)
-		padding-top: 70px
+		padding-top: 65px
 	&__top
 		display: flex
 		flex-direction: column
@@ -11,6 +11,7 @@
 			justify-content: space-between
 	&__icon
 		margin-bottom: 53px
+		margin-top: 5px
 		display: inline-block
 		width: 40px
 		height: 40px
@@ -23,35 +24,38 @@
 		display: flex
 		flex-direction: column
 		margin-bottom: 15px
+		box-sizing: border-box
 		+min-screen($breakpoint-sm)
-			flex-flow: row wrap
+			flex-direction: row
+			margin-left: -8px
+			margin-right: -8px
 		+min-screen($breakpoint-lg)
-			margin: 0 -10px 65px
+			margin-left: -12px
+			margin-right: -12px
 		+min-screen($breakpoint-xl)
-			margin: 0 0 130px
+			width: calc(50% + 12px)
+			margin: 0 -12px 80px 0
 	&__section
-		margin-bottom: 48px
+		margin-bottom: 46px
+		box-sizing: border-box
 		+min-screen($breakpoint-sm)
 			width: 50%
-		+min-screen($breakpoint-lg)
-			margin: 0 5px
-			width: calc(50% - 10px)
-		+min-screen($breakpoint-xl)
-			margin: 0
-			width: auto
-			&:not(:last-of-type)
-				margin-right: 120px
+			padding-left: 8px
+			padding-right: 8px
+		+min-screen($breakpoint-sm)
+			padding-left: 12px
+			padding-right: 12px
 	&__section-title
 		position: relative
-		margin-bottom: 16px
-		padding-top: 16px
+		margin-bottom: 19px
+		padding-top: 17px
 		text-transform: uppercase
 		font-size: 14px
-		font-weight: 300
+		font-weight: 500
 		color: #fff
 		+min-screen($breakpoint-lg)
-			margin-bottom: 14px
-			padding-top: 20px
+			margin-bottom: 17px
+			padding-top: 18px
 		&::before
 			content: ''
 			position: absolute
@@ -61,12 +65,11 @@
 			height: 1px
 			background-color: #fff
 			+min-screen($breakpoint-lg)
-				width: 180px
+				width: 195px
 	&__company-title
 		margin-bottom: 8px
-		font-family: $font-family-accident
 		font-size: 18px
-		font-weight: 900
+		font-weight: 300
 		color: #fff
 	&__address
 		font-size: 18px
@@ -74,9 +77,8 @@
 		color: #fff
 	&__mail
 		text-decoration: underline
-		font-family: $font-family-accident
 		font-size: 18px
-		font-weight: 900
+		font-weight: 300
 		color: #fff
 		+desktop
 			&:hover
@@ -101,5 +103,4 @@
 		text-align: center
 		font-size: 14px
 		font-weight: 300
-		text-align: center
 		color: #b2b2b2

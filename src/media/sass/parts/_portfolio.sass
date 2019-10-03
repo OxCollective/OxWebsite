@@ -1,19 +1,106 @@
 .portfolio
-	margin-bottom: 100px
+	margin-bottom: 68px
 	&__title
-		margin-bottom: 24px
+		margin-bottom: 7.18vw
 		text-align: center
 		font-family: $font-family-accident
-		font-size: 32px
+		font-size: 20px
 		font-weight: 900
-		line-height: 1.09
+		line-height: 1.2
 		color: #000
-		+min-screen($breakpoint-lg)
-			font-size: 40px
+		+ls(-0.5, 20)
 	&__brands
-		min-height: 316px
-		// background-color: #f6f6f6
-		+min-screen($breakpoint-lg)
-			width: 80%
-			margin-left: auto
-			margin-right: auto
+		display: flex
+		flex-wrap: wrap
+		box-sizing: border-box
+		margin-left: -10px
+		margin-right: -10px
+	&__brands-item
+		display: flex
+		flex-direction: column
+		justify-content: center
+		align-items: center
+		flex-shrink: 0
+		width: 50%
+		padding-left: 10px
+		padding-right: 10px
+		box-sizing: border-box
+		margin-bottom: 6vw
+		img
+			display: block
+			width: auto
+			height: auto
+			max-width: 100%
+	+max-screen($breakpoint-sm - 1)
+		&__brands-item
+			&:nth-child(4n+1)
+				img
+					max-width: 128%
+			&:nth-child(4n+3)
+				img
+					max-width: 80%
+			&._item-1
+				order: 1
+			&._item-2
+				order: 3
+			&._item-3
+				order: 5
+			&._item-4
+				order: 7
+			&._item-5
+				order: 9
+			&._item-6
+				order: 11
+			&._item-7
+				order: 2
+			&._item-8
+				order: 4
+			&._item-9
+				order: 6
+			&._item-10
+				order: 8
+			&._item-11
+				order: 10
+			&._item-12
+				order: 12
+	+min-screen($breakpoint-sm)
+		&__title
+			margin-bottom: 6.8vw
+		&__brands
+			margin-left: 0
+			margin-right: 0
+		&__brands-item
+			width: 25%
+			margin-bottom: 3.9vw
+			img
+				max-width: 112%
+			&:nth-child(4n+1)
+				width: 31%
+			&:nth-child(4n+2)
+				width: 25%
+			&:nth-child(4n+3)
+				width: 20%
+			&:nth-child(4n+4)
+				width: 24%
+	+min-screen($breakpoint-md)
+		&__title
+			margin-bottom: 5.5vw
+		&__brands-item
+			img
+				max-width: 105%
+	+min-screen($breakpoint-lg)
+		margin-bottom: 120px
+		&__title
+			margin-bottom: 73px
+			+text(32px, 36px)
+			+ls(-0.5, 32)
+		&__brands-item
+			margin-bottom: 3.7vw
+	+min-screen($breakpoint-xl)
+		margin-bottom: 170px
+		&__title
+			margin-bottom: 82px
+		&__brands-item
+			margin-bottom: 50px
+			img
+				max-width: 100%
