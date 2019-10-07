@@ -1,0 +1,233 @@
+{% set headerModificators = "_light" %}
+{% extends "../ext/base.nunj" %}
+
+{% block title %}The Reykyavik City Planning Project - {{ super() }}
+{% endblock title %}
+
+{% block content %}
+	<section class="case-heading">
+		<h1 class="case-heading__title">
+			<span class="case-heading__title-small _fade-down" data-animation="_animated">The</span>
+			<span class="case-heading__title-big _fade-down" data-animation="_animated">Reykyavik City Planning Project</span>
+			<span class="case-heading__line _fade-down" data-animation="_animated"></span>
+		</h1>
+		<div class="case-heading__video-container" data-top-parallax>
+			<video class="case-heading__video" poster="media/img/video-poster.jpg" playsinline muted autoplay loop>
+				<source src="media/video/video.mp4" type="video/mp4">
+			</video>
+			<img class="case-heading__video-poster" src="media/img/video-poster.jpg" alt="">
+		</div>
+	</section>
+
+	<section class="section _grey _small">
+		<div class="container">
+			<div class="summary">
+				<div class="summary__row">
+					<div class="summary__col _left">
+						<div class="summary__item _item-1">
+							<div class="summary__title _fade-down" data-animation="_animated">
+								Deliverables
+							</div>
+							<div class="summary__content _fade-down" data-animation="_animated">
+								Multiplatform UX/UI Design<br>
+								User Research<br>
+								Design System<br>
+								Email Design
+							</div>
+						</div>
+						<div class="summary__item _item-2">
+							<div class="summary__title _fade-down" data-animation="_animated">
+								Client
+							</div>
+							<div class="summary__content _fade-down" data-animation="_animated">
+								Berliner Philharmoniker
+							</div>
+						</div>
+					</div>
+					<div class="summary__col _right">
+						<div class="summary__item">
+							<div class="summary__title _fade-down" data-animation="_animated">
+								Overview
+							</div>
+							<div class="summary__content _fade-down" data-animation="_animated">
+								The Berliner Philharmoniker is ranked one of the top orchestras in the world. Their Digital Concert Hall is a pioneer of its kind, streaming premium, original content to subscribers—on practically any device–since 2008. Ox has worked closely with the team to solve the difficult problem of user experience consistency across a constantly changing tech environment, maintainability and team inclusion.
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="section _white">
+		<div class="description">
+			<div class="description__block">
+				<div class="container _small">
+					<h2 class="description__title _fade-down" data-animation="_animated">Background</h2>
+					<p class="_fade-down" data-animation="_animated">As a streaming service with original, high-quality content and a passionate following around the world, it's no wonder the Digital Concert Hall has been a hit from day one. But the device landscape has shifted several times since 2008, and as the number of clients multiplied, problems began to surface.</p>
+					<p class="_fade-down" data-animation="_animated">Without a centralized design team, the interface was recreated for each new client, with different user flows, creating a dissonant experience for users—and a difficult task for the BPH team.</p>
+				</div>
+			</div>
+			<div class="description__block">
+				<div class="container _small">
+					<h2 class="description__title _fade-down" data-animation="_animated">The challenges</h2>
+					<ul class="list">
+						<li class="_fade-down" data-animation="_animated">
+							<span class="list__icon">&#10032;</span>Meet the diverse and constantly evolving requirements of each platform, while maintaining a consistent feel and recognizable brand
+						</li>
+						<li class="_fade-down" data-animation="_animated">
+							<span class="list__icon">&#10032;</span>Simplify and unify app components and user flows, leaving room to leverage each platform's strengths
+						</li>
+						<li class="_fade-down" data-animation="_animated">
+							<span class="list__icon">&#10032;</span>Work swiftly within a small, startup-like structure and help create better product design processes
+						</li>
+						<li class="_fade-down" data-animation="_animated">
+							<span class="list__icon">&#10032;</span>Understand our users, their realities, desires and needs and deliver an experience that feels as premium as the content
+						</li>
+						<li class="_fade-down" data-animation="_animated">
+							<span class="list__icon">&#10032;</span>Prioritize accessibility and inclusion
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="description__block">
+				<div class="container description__image-container">
+					<div class="description__image">
+						<img src="media/img/test_2.jpg" class="_zoom-out" data-animation="_zoom-started" alt="">
+					</div>
+				</div>
+				<div class="container _small">
+					<div class="description__image-text _fade-down" data-animation="_animated">
+						This is text under an image. The home screen showing the featured content area. The user is signed in and has a ticket.
+					</div>
+				</div>
+			</div>
+			<div class="description__block">
+				<div class="container description__image-container _small">
+					<div class="description__image">
+						<img src="media/img/test_3.jpg" class="_zoom-out" data-animation="_zoom-started" alt="">
+					</div>
+				</div>
+				<div class="container _small">
+					<div class="description__image-text _fade-down" data-animation="_animated">
+						This is text under an image. The home screen showing the featured content area. The user is signed in and has a ticket.
+					</div>
+				</div>
+			</div>
+			<div class="description__block">
+				<div class="container _small">
+					<h2 class="description__title _fade-down" data-animation="_animated">Our process</h2>
+					<p class="_fade-down" data-animation="_animated">For the launch of the tvOS app store, we got to rebuild the app from the ground up. We worked closely with our Smart TV team as well as Apple and delivered an experience that delighted users, as well as stakeholders, collecting an "App of the Year (Japan)" award.</p>
+				</div>
+			</div>
+			<div class="description__block">
+				<div class="container _small">
+					<h2 class="description__title _fade-down" data-animation="_animated">The design system</h2>
+					<p class="_fade-down" data-animation="_animated">With full client approval, we moved on to the next question: how to port this successful experience to all other platforms?</p>
+					<p class="_fade-down" data-animation="_animated">The answer was a platform-agnostic design system. This not only facilitated the design of new clients, but also streamlined communication with developers.</p>
+				</div>
+			</div>
+			<div class="description__block">
+				<div class="description__image-container">
+					<div class="description__image">
+						<img src="media/img/test_2.jpg" class="_zoom-out" data-animation="_zoom-started" alt="">
+					</div>
+				</div>
+				<div class="container _small">
+					<div class="description__image-text _fade-down" data-animation="_animated">
+						This is text under an image. The home screen showing the featured content area. The user is signed in and has a ticket.
+					</div>
+				</div>
+			</div>
+			<div class="description__block">
+				<div class="container _small">
+					<h2 class="description__title _fade-down" data-animation="_animated">Closer to users</h2>
+					<ul class="list">
+						<li class="_fade-down" data-animation="_animated">
+							<span class="list__icon">&#10004;</span>Redesigned web client, set to launch in Fall 2019
+						</li>
+						<li class="_fade-down" data-animation="_animated">
+							<span class="list__icon">&#10004;</span>Focus on user-centered design and accessibility
+						</li>
+						<li class="_fade-down" data-animation="_animated">
+							<span class="list__icon">&#10004;</span>Through metrics, realized we needed to simplify and optimize the subscription model
+						</li>
+						<li class="_fade-down" data-animation="_animated">
+							<span class="list__icon">&#10004;</span>Implemented more actionable metrics
+						</li>
+						<li class="_fade-down" data-animation="_animated">
+							<span class="list__icon">&#10004;</span>Creating the foundation for a more data-driven roadmap
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="description__block">
+				<div class="container">
+					<div class="description__row">
+						<div class="description__col _image">
+							<div class="description__image-col">
+								<img src="media/img/test_1.jpg" class="_zoom-out" data-animation="_zoom-started" alt="">
+							</div>
+						</div>
+						<div class="description__col _text">
+							<h2 class="description__title _fade-down" data-animation="_animated">Business design:<br>optimizing processes</h2>
+							<p class="_fade-down" data-animation="_animated">With Ox as the center of product design, it became clear that an in-house team would be beneficial. We advised and supervised the building of a development and design team, which is flourishing and growing every month.</p>
+							<p class="_fade-down" data-animation="_animated">Ox also helped implement a design culture by improving processes and educating employees. With the design system, anyone in the company can provide better feedback, for which we implemented a pipeline that leads to continuous optimization through iteration.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="section _white _review">
+		<div class="container">
+			<div class="review">
+				<div class="review__photo _fade-down" data-animation="_animated">
+					<img src="media/img/test_3.jpg" alt="">
+				</div>
+				<div class="review__name _fade-down" data-animation="_animated">Marcus Forchner</div>
+				<div class="review__info _fade-down" data-animation="_animated">Head of Development at the Digital Concert Hall</div>
+				<div class="review__content">
+					<div class="review__icon _fade-down" data-animation="_animated"></div>
+					<div class="review__text">
+						<p class="_fade-down" data-animation="_animated">With Ox as the center of product design, they advised and supervised the building of a development and design team, which is flourishing and growing every month.</p>
+						<p class="_fade-down" data-animation="_animated">They helped implement a design culture by improving processes and educating employees. With the design system, anyone in the company can provide better feedback, for which we implemented a pipeline that leads to continuous optimization through iteration.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="section _white _next-project">
+		<div class="container">
+			<div class="section-subtitle _v2 _mobile _fade-down" data-animation="_animated">Next Project &#8594;</div>
+			<div class="next-project">
+				<div class="next-project__image _zoom-out" data-animation="_zoom-started">
+					<a class="next-project__image-wrap" href="#">
+						<img src="media/img/test_2.jpg" alt="">
+					</a>
+				</div>
+				<div class="next-project__info">
+					<div class="section-subtitle _v2 _desktop _fade-down" data-animation="_animated">Next Project &#8594;</div>
+					<div class="next-project__title _fade-down" data-animation="_animated">
+						<a class="next-project__link" href="#">The Reykjavik City Planning Project</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="section _grey _contact">
+		<div class="container">
+			<div class="contact">
+				<div class="section-subtitle _v2 _fade-down" data-animation="_animated">Contact</div>
+				<h2 class="contact__title _fade-down" data-animation="_animated">Ox Collective.<br>Made in Berlin, available around the globe.</h2>
+				<div class="contact__mail">
+					<div class="contact__mail-text _fade-down" data-animation="_animated">Get in touch:</div>
+					<a class="contact__mail-link _fade-down" data-animation="_animated" href="mailto:hello@oxcollective.com">hello@oxcollective.com</a>
+				</div>
+			</div>
+		</div>
+	</section>
+{% endblock content %}

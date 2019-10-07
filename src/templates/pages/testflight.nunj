@@ -1,0 +1,245 @@
+{% set headerModificators = "_light" %}
+{% extends "../ext/base.nunj" %}
+
+{% block title %}TestFlight - {{ super() }}
+{% endblock title %}
+
+{% block content %}
+	<section class="case-heading">
+		<h1 class="case-heading__title">
+			<span class="case-heading__title-big _fade-down" data-animation="_animated">TestFlight</span>
+			<span class="case-heading__line _fade-down" data-animation="_animated"></span>
+		</h1>
+		<div class="case-heading__video-container" data-top-parallax>
+			<video class="case-heading__video" poster="media/img/video-poster.jpg" playsinline muted autoplay loop>
+				<source src="media/video/video.mp4" type="video/mp4">
+			</video>
+			<img class="case-heading__video-poster" src="media/img/video-poster.jpg" alt="">
+		</div>
+	</section>
+
+	<section class="section _grey _small">
+		<div class="container">
+			<div class="summary">
+				<div class="summary__row">
+					<div class="summary__col _left">
+						<div class="summary__item _item-1">
+							<div class="summary__title _fade-down" data-animation="_animated">
+								Deliverables
+							</div>
+							<div class="summary__content _fade-down" data-animation="_animated">
+								Multiplatform UX/UI Design<br>
+								User Research<br>
+								Design System<br>
+								Email Design
+							</div>
+						</div>
+						<div class="summary__item _item-2">
+							<div class="summary__title _fade-down" data-animation="_animated">
+								Client
+							</div>
+							<div class="summary__content _fade-down" data-animation="_animated">
+								Burstly
+							</div>
+						</div>
+					</div>
+					<div class="summary__col _right">
+						<div class="summary__item">
+							<div class="summary__title _fade-down" data-animation="_animated">
+								Overview
+							</div>
+							<div class="summary__content _fade-down" data-animation="_animated">
+								Beta testing is essential to creating great applications, yet for iOS developers, that was a painful and complicated process. Now one of the main Apple developer tools, TestFlight started with a small team of engineers and designers with a vision: to turn a hack into a free, accessible tool to empower coders. Our designers were there from inception to acquisition, helping turn the platform into a full suite to support app creators through testing, monetization and analytics.
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="section _white">
+		<div class="description">
+			<div class="description__block">
+				<div class="container _small">
+					<h2 class="description__title _fade-down" data-animation="_animated">Background</h2>
+					<p class="_fade-down" data-animation="_animated">In 2011, mobile apps were an exciting new market. The iPhone blew up and tools like GitHub made it easier than ever to share and connect. Yet, for iOS devs beta testing was challenge. Distributing betas was messy, complicated and required testers to take difficult technical steps.</p>
+					<p class="_fade-down" data-animation="_animated">Created by a small team of developers on a mission to bridge this gap, TestFlight took off quickly and soon thousands of users, including some of the world's biggest brands, were on it.</p>
+				</div>
+			</div>
+			<div class="description__block">
+				<div class="container _small">
+					<h2 class="description__title _fade-down" data-animation="_animated">The Challenge</h2>
+					<p class="_fade-down" data-animation="_animated">From 2011-2014, two of the Ox partners were directly responsible for all the design pertaining to TestFlight and all its sub-brands. In that period, these were some of the challenges they encountered along the way.</p>
+					<ul class="list">
+						<li class="_fade-down" data-animation="_animated">
+							<span class="list__icon">&#10032;</span>Building a platform that served two very different user groups: developers and testers.
+						</li>
+						<li class="_fade-down" data-animation="_animated">
+							<span class="list__icon">&#10032;</span>Creating a brand that felt exciting but reliable, friendly but professional, accessible but not dumbed-down.
+						</li>
+						<li class="_fade-down" data-animation="_animated">
+							<span class="list__icon">&#10032;</span>Developing a full brand strategy for the original product, and later the suite (after acquisition by Burstly).
+						</li>
+						<li class="_fade-down" data-animation="_animated">
+							<span class="list__icon">&#10032;</span>Understanding the complex technical requirements of developers to build a ground-breaking analytics product
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="description__block">
+				<div class="container description__image-container">
+					<div class="description__image">
+						<img src="media/img/test_2.jpg" class="_zoom-out" data-animation="_zoom-started" alt="">
+					</div>
+				</div>
+				<div class="container _small">
+					<div class="description__image-text _fade-down" data-animation="_animated">
+						This is text under an image. The home screen showing the featured content area. The user is signed in and has a ticket.
+					</div>
+				</div>
+			</div>
+			<div class="description__block">
+				<div class="container description__image-container _small">
+					<div class="description__image">
+						<img src="media/img/test_3.jpg" class="_zoom-out" data-animation="_zoom-started" alt="">
+					</div>
+				</div>
+				<div class="container _small">
+					<div class="description__image-text _fade-down" data-animation="_animated">
+						This is text under an image. The home screen showing the featured content area. The user is signed in and has a ticket.
+					</div>
+				</div>
+			</div>
+			<div class="description__block">
+				<div class="container _small">
+					<h2 class="description__title _fade-down" data-animation="_animated">Our process</h2>
+					<p class="_fade-down" data-animation="_animated">As a pioneering service, TestFlight had the advantage of filling a market demand and a leg up in terms of adoption—but its success came from more than its great technical aspects. A consistent brand vision and execution with a humanistic tone set the platform apart from most other dev-oriented products at the time.</p>
+					<p class="_fade-down" data-animation="_animated">The UX team, led by Fernando and Björgvin, took a human-centered approach to understand and delight two core user groups (developers and testers) with very different needs; while devs looked for reliability, data and customer service, testers needed ease of use and a friendly interface.</p>
+				</div>
+			</div>
+			<div class="description__block">
+				<div class="container _small">
+					<h2 class="description__title _fade-down" data-animation="_animated">The brand</h2>
+					<p class="_fade-down" data-animation="_animated">Starting from the name, creativity and a human face was a high priority. Throghout the life of the project, we paid attention to details, such as color schemes and a carefully crafted and curated iconography. The mascot, a pilot and his plane illustrated by Vanja Mrgan, set the tone and gave the service a human face. The highly requested t-shirts and stickers, as well as pop-up events such as the (fully stickered) taco truck at WWDC inspired trust and generated word-of-mouth—with a sense of community.</p>
+				</div>
+			</div>
+			<div class="description__block">
+				<div class="description__image-container">
+					<div class="description__image">
+						<img src="media/img/test_2.jpg" class="_zoom-out" data-animation="_zoom-started" alt="">
+					</div>
+				</div>
+				<div class="container _small">
+					<div class="description__image-text _fade-down" data-animation="_animated">
+						This is text under an image. The home screen showing the featured content area. The user is signed in and has a ticket.
+					</div>
+				</div>
+			</div>
+			<div class="description__block">
+				<div class="container _small">
+					<h2 class="description__title _fade-down" data-animation="_animated">Data and analytics, designed for humans</h2>
+					<p class="_fade-down" data-animation="_animated">Improving TestFlight's dashboard month after month meant understanding a lot of data, but most importantly the developers that needed it. We interviewed them and discussed creative solutions, tweaking and updating user flows and visual design constantly.</p>
+
+					<p class="_fade-down" data-animation="_animated">After its acquisition by Burstly, FlightPath, an analytics tool, was introduced. Its mission was to provide actionable analytics. The service was now a full-fledged suite for app developers.</p>
+				</div>
+			</div>
+
+			<div class="description__block">
+				<div class="container description__image-container _small">
+					<div class="description__image">
+						<img src="media/img/test_3.jpg" class="_zoom-out" data-animation="_zoom-started" alt="">
+					</div>
+				</div>
+				<div class="container _small">
+					<div class="description__image-text _fade-down" data-animation="_animated">
+						This is text under an image. The home screen showing the featured content area. The user is signed in and has a ticket.
+					</div>
+				</div>
+			</div>
+
+			<div class="description__block">
+				<div class="container _small">
+
+					<ul class="list">
+						<li class="_fade-down" data-animation="_animated">
+							<span class="list__icon">&#10004;</span>Built entirely on human-centered principles
+						</li>
+						<li class="_fade-down" data-animation="_animated">
+							<span class="list__icon">&#10004;</span>Intuitive: instead of tons of options at once, users had a simple click-by-click funnel
+						</li>
+						<li class="_fade-down" data-animation="_animated">
+							<span class="list__icon">&#10004;</span>System was integrated: Analytics tool fed data to our own mobile ad network (SkyRocket)
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="description__block">
+				<div class="container">
+					<div class="description__row">
+						<div class="description__col _image">
+							<div class="description__image-col">
+								<img src="media/img/test_1.jpg" class="_zoom-out" data-animation="_zoom-started" alt="">
+							</div>
+						</div>
+						<div class="description__col _text">
+							<h2 class="description__title _fade-down" data-animation="_animated">The results</h2>
+							<p class="_fade-down" data-animation="_animated">With overwhelming adoption and widespread praise, TestFlight was first acquired by Burstly—which added FlightPath (analytics) and SkyRocket (monetization), turning the service into a full suite.</p>
+							<p class="_fade-down" data-animation="_animated"></p>In 2014, Apple acquires Burstly. TestFlight is turned into the official platform for iOS development, name unchanged and core brand elements maintained. Many core elements of FlightPath were integrated into iTunes connect.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="section _white _review">
+	<div class="container">
+		<div class="review">
+			<div class="review__photo _fade-down" data-animation="_animated">
+				<img src="media/img/test_3.jpg" alt="">
+			</div>
+			<div class="review__name _fade-down" data-animation="_animated">Ben Satterfield</div>
+			<div class="review__info _fade-down" data-animation="_animated">Bossman</div>
+			<div class="review__content">
+				<div class="review__icon _fade-down" data-animation="_animated"></div>
+				<div class="review__text">
+					<p class="_fade-down" data-animation="_animated">The contributions of Nando and Björgvin were really central to the success of TestFlight—and later the Burstly suite. As a team they strived for the best user experience, always keeping in mind the business aspects.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="section _white _next-project">
+	<div class="container">
+		<div class="section-subtitle _v2 _mobile _fade-down" data-animation="_animated">Next Project &#8594;</div>
+		<div class="next-project">
+			<div class="next-project__image _zoom-out" data-animation="_zoom-started">
+				<a class="next-project__image-wrap" href="hverfisskipulag.html">
+					<img src="media/img/test_2.jpg" alt="">
+				</a>
+			</div>
+			<div class="next-project__info">
+				<div class="section-subtitle _v2 _desktop _fade-down" data-animation="_animated">Next Project &#8594;</div>
+				<div class="next-project__title _fade-down" data-animation="_animated">
+					<a class="next-project__link" href="hverfisskipulag.html">The Reykjavik City Planning Project</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="section _grey _contact">
+	<div class="container">
+		<div class="contact">
+			<div class="section-subtitle _v2 _fade-down" data-animation="_animated">Contact</div>
+			<h2 class="contact__title _fade-down" data-animation="_animated">Ox Collective.<br>Made in Berlin, available around the globe.</h2>
+			<div class="contact__mail">
+				<div class="contact__mail-text _fade-down" data-animation="_animated">Get in touch:</div>
+				<a class="contact__mail-link _fade-down" data-animation="_animated" href="mailto:hello@oxcollective.com">hello@oxcollective.com</a>
+			</div>
+		</div>
+	</div>
+</section>
+{% endblock content %}

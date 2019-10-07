@@ -2,370 +2,370 @@
 {% extends "../ext/base.nunj" %}
 
 {% block content %}
-<div class="container">
-	<header class="heading" data-section="heading">
-		<h1 class="heading__title _fade-down" data-animation="_animated">
+	<div class="container">
+		<header class="heading" data-section="heading">
+			<h1 class="heading__title _fade-down" data-animation="_animated">
 			Products designed to set you apart from the herd.
 		</h1>
-		<svg class="heading__icon _fade" viewBox="0 0 524 524" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" data-animation="_animated-fade">
-			<defs>
-				<path d="M98.5282 523.287l424.7588-98.529L424.759-.000003 0 98.5282 98.5282 523.287zm17.3108-27.773l379.671-88.069-88.07-379.671-379.6704 88.069 88.0694 379.671z" id="ox-a"/>
-				<filter x="-.4%" y="-.4%" width="100.8%" height="100.8%" filterUnits="objectBoundingBox" id="ox-b">
-					<feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"/>
-					<feOffset dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"/>
-					<feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"/>
-					<feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0" in="shadowInnerInner1"/>
-				</filter>
-				<path d="M127.594 200.427c2.299 9.909 6.994 17.259 14.097 22.088 7.108 4.822 15.807 6.029 26.066 3.649 10.303-2.39 17.562-7.298 21.819-14.756 4.256-7.464 5.238-16.131 2.939-26.04-2.302-9.927-7.006-17.304-14.108-22.11-7.1-4.798-15.784-6.032-26.086-3.642-10.259 2.38-17.534 7.315-21.798 14.75-4.258 7.44-5.232 16.135-2.929 26.061zm-40.5977 9.417c-2.4304-10.477-2.7307-20.384-.9082-29.718 1.8149-9.375 5.3265-17.843 10.5117-25.402 5.1822-7.562 11.8482-14.027 20.0412-19.315 8.182-5.33 17.314-9.167 27.397-11.506 10.107-2.344 19.995-2.92 29.666-1.73 9.684 1.14 18.517 4.01 26.522 8.513 7.959 4.51 14.838 10.568 20.595 18.187 5.749 7.577 9.839 16.605 12.269 27.083 2.422 10.437 2.728 20.363.907 29.718-1.821 9.35-5.335 17.8-10.49 25.375-5.201 7.586-11.879 14.009-20.063 19.338-8.162 5.308-17.295 9.143-27.402 11.487-10.083 2.339-19.971 2.916-29.66 1.749-9.694-1.182-18.515-4.009-26.502-8.536-7.988-4.527-14.865-10.566-20.6163-18.16-5.7501-7.599-9.8463-16.645-12.2674-27.083zM330.119 330.718l-58.015-50.969 47.906-11.113 31.532 30.316 14.172-40.917 45.178-10.48-28.572 71.055 66.903 58.603-47.858 11.101-38.853-37.155-20.679 50.964-47.329 10.979 35.615-82.384z" id="ox-c"/>
-				<filter x="-.5%" y="-.7%" width="101.1%" height="101.4%" filterUnits="objectBoundingBox" id="ox-d">
-					<feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"/>
-					<feOffset dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"/>
-					<feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"/>
-					<feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0" in="shadowInnerInner1"/>
-				</filter>
-			</defs>
-			<g fill="none" fill-rule="evenodd">
-				<use fill="#F2C94C" xlink:href="#ox-a"/>
-				<use fill="#000" filter="url(#ox-b)" xlink:href="#ox-a"/>
-				<g>
-					<use fill="#F2C94C" xlink:href="#ox-c"/>
-					<use fill="#000" filter="url(#ox-d)" xlink:href="#ox-c"/>
+			<svg class="heading__icon _fade" viewBox="0 0 524 524" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" data-animation="_animated-fade">
+				<defs>
+					<path d="M98.5282 523.287l424.7588-98.529L424.759-.000003 0 98.5282 98.5282 523.287zm17.3108-27.773l379.671-88.069-88.07-379.671-379.6704 88.069 88.0694 379.671z" id="ox-a"/>
+					<filter x="-.4%" y="-.4%" width="100.8%" height="100.8%" filterUnits="objectBoundingBox" id="ox-b">
+						<feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"/>
+						<feOffset dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+						<feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"/>
+						<feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0" in="shadowInnerInner1"/>
+					</filter>
+					<path d="M127.594 200.427c2.299 9.909 6.994 17.259 14.097 22.088 7.108 4.822 15.807 6.029 26.066 3.649 10.303-2.39 17.562-7.298 21.819-14.756 4.256-7.464 5.238-16.131 2.939-26.04-2.302-9.927-7.006-17.304-14.108-22.11-7.1-4.798-15.784-6.032-26.086-3.642-10.259 2.38-17.534 7.315-21.798 14.75-4.258 7.44-5.232 16.135-2.929 26.061zm-40.5977 9.417c-2.4304-10.477-2.7307-20.384-.9082-29.718 1.8149-9.375 5.3265-17.843 10.5117-25.402 5.1822-7.562 11.8482-14.027 20.0412-19.315 8.182-5.33 17.314-9.167 27.397-11.506 10.107-2.344 19.995-2.92 29.666-1.73 9.684 1.14 18.517 4.01 26.522 8.513 7.959 4.51 14.838 10.568 20.595 18.187 5.749 7.577 9.839 16.605 12.269 27.083 2.422 10.437 2.728 20.363.907 29.718-1.821 9.35-5.335 17.8-10.49 25.375-5.201 7.586-11.879 14.009-20.063 19.338-8.162 5.308-17.295 9.143-27.402 11.487-10.083 2.339-19.971 2.916-29.66 1.749-9.694-1.182-18.515-4.009-26.502-8.536-7.988-4.527-14.865-10.566-20.6163-18.16-5.7501-7.599-9.8463-16.645-12.2674-27.083zM330.119 330.718l-58.015-50.969 47.906-11.113 31.532 30.316 14.172-40.917 45.178-10.48-28.572 71.055 66.903 58.603-47.858 11.101-38.853-37.155-20.679 50.964-47.329 10.979 35.615-82.384z" id="ox-c"/>
+					<filter x="-.5%" y="-.7%" width="101.1%" height="101.4%" filterUnits="objectBoundingBox" id="ox-d">
+						<feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"/>
+						<feOffset dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+						<feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"/>
+						<feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0" in="shadowInnerInner1"/>
+					</filter>
+				</defs>
+				<g fill="none" fill-rule="evenodd">
+					<use fill="#F2C94C" xlink:href="#ox-a"/>
+					<use fill="#000" filter="url(#ox-b)" xlink:href="#ox-a"/>
+					<g>
+						<use fill="#F2C94C" xlink:href="#ox-c"/>
+						<use fill="#000" filter="url(#ox-d)" xlink:href="#ox-c"/>
+					</g>
 				</g>
-			</g>
-		</svg>
-	</header>
-	<section class="about">
-		<h2 class="about__title _fade-down" data-animation="_animated">
+			</svg>
+		</header>
+		<section class="about">
+			<h2 class="about__title _fade-down" data-animation="_animated">
 			Ox is a scalable, grassroots product design team that can help you cultivate your juiciest
 			ideas to fruition.
 		</h2>
-		<div class="about__desc _fade-down" data-animation="_animated, 0.1">
+			<div class="about__desc _fade-down" data-animation="_animated, 0.1">
 			Great ideas are like seeds: they’re everywhere, yet few get to grow to their full potential.
 			Luck plays a role, but creating a successful and beloved product requires care, technique
 			and dedication. We offer just that; a seasoned, insightful and highly motivated team who can
 			come in at any phase and help products get where they need to be.
 		</div>
-		<button class="button _fade-down" type="button" data-section-anchor="contact" data-animation="_animated, 0.2">Let's talk!</button>
-	</section>
-	<section class="process" data-section="process" id="process">
-		<div class="section-subtitle _fade-down" data-animation="_animated">
+			<button class="button _fade-down" type="button" data-section-anchor="contact" data-animation="_animated, 0.2">Let's talk!</button>
+		</section>
+		<section class="process" data-section="process" id="process">
+			<div class="section-subtitle _fade-down" data-animation="_animated">
 			Process
 		</div>
-		<h2 class="process__section-title section-title _fade-down" data-animation="_animated">
+			<h2 class="process__section-title section-title _fade-down" data-animation="_animated">
 			How we do things
 		</h2>
-		<ul class="process__list">
-			<li class="process__list-item _fade-down" data-animation="_animated, 0.1">
-				<div class="process-item">
-					<div class="process-item__icon-container">
-						<img src="media/img/icon_listen.svg" alt="" />
-					</div>
-					<div class="process-item__content">
-						<h3 class="process-item__title">
+			<ul class="process__list">
+				<li class="process__list-item _fade-down" data-animation="_animated, 0.1">
+					<div class="process-item">
+						<div class="process-item__icon-container">
+							<img src="media/img/icon_listen.svg" alt=""/>
+						</div>
+						<div class="process-item__content">
+							<h3 class="process-item__title">
 							Listen
 						</h3>
-						<div class="process-item__desc">
+							<div class="process-item__desc">
 							We listen to you: what you're all about, what you know—and what you don’t. We listen
 							to your users through research to understand their reality, their needs and whether
 							this idea is a solid path to go down.
 						</div>
+						</div>
 					</div>
-				</div>
-			</li>
-			<li class="process__list-item _fade-down" data-animation="_animated, 0.2">
-				<div class="process-item">
-					<div class="process-item__icon-container">
-						<img src="media/img/icon_create.svg" alt="" />
-					</div>
-					<div class="process-item__content">
-						<h3 class="process-item__title">
+				</li>
+				<li class="process__list-item _fade-down" data-animation="_animated, 0.2">
+					<div class="process-item">
+						<div class="process-item__icon-container">
+							<img src="media/img/icon_create.svg" alt=""/>
+						</div>
+						<div class="process-item__content">
+							<h3 class="process-item__title">
 							Create
 						</h3>
-						<div class="process-item__desc">
+							<div class="process-item__desc">
 							We draw up a design strategy and get to work. We make prototypes and test them with
 							real people, and iterate based on what we learn until we find the minimum lovable
 							product. And then it’s launch time.
 						</div>
+						</div>
 					</div>
-				</div>
-			</li>
-			<li class="process__list-item _fade-down" data-animation="_animated, 0.3">
-				<div class="process-item">
-					<div class="process-item__icon-container">
-						<img src="media/img/icon_grow.svg" alt="" />
-					</div>
-					<div class="process-item__content">
-						<h3 class="process-item__title">
+				</li>
+				<li class="process__list-item _fade-down" data-animation="_animated, 0.3">
+					<div class="process-item">
+						<div class="process-item__icon-container">
+							<img src="media/img/icon_grow.svg" alt=""/>
+						</div>
+						<div class="process-item__content">
+							<h3 class="process-item__title">
 							Grow
 						</h3>
-						<div class="process-item__desc">
+							<div class="process-item__desc">
 							We can continue to support your product on its journey, improving and implementing
 							features. We work closely with you and your users to sustain a bright, meaningful
 							future for your brand and beyond.
 						</div>
+						</div>
 					</div>
-				</div>
-			</li>
-		</ul>
-	</section>
-	<section class="proud" data-section="work" id="work">
-		<div class="section-subtitle _fade-down" data-animation="_animated">
+				</li>
+			</ul>
+		</section>
+		<section class="proud" data-section="work" id="work">
+			<div class="section-subtitle _fade-down" data-animation="_animated">
 			Work
 		</div>
-		<h2 class="proud__section-title section-title _fade-down" data-animation="_animated">
+			<h2 class="proud__section-title section-title _fade-down" data-animation="_animated">
 			What we're proud of
 		</h2>
-		<ul class="proud__list clearfix">
+			<ul class="proud__list clearfix">
 
-			<li class="proud__list-item _fade-down" data-animation="_animated, 0.1">
-				<div class="proud-item">
-					<div class="proud-item__slider-col">
-						<div class="proud-item__slider" data-slick>
-							<div class="proud-item__slider-item">
-								<a href="case-studies.html"><img src="media/img/digital-concert-hall/thumb-01.png" alt=""></a>
-							</div>
-							<div class="proud-item__slider-item">
-								<a href="case-studies.html"><img src="media/img/digital-concert-hall/thumb-02.png" alt=""></a>
-							</div>
-							<div class="proud-item__slider-item">
-								<a href="case-studies.html"><img src="media/img/digital-concert-hall/thumb-03.png" alt=""></a>
+				<li class="proud__list-item _fade-down" data-animation="_animated, 0.1">
+					<div class="proud-item">
+						<div class="proud-item__slider-col">
+							<div class="proud-item__slider" data-slick>
+								<div class="proud-item__slider-item">
+									<a href="digital-concdert-hall.html"><img src="media/img/digital-concert-hall/thumb-01.png" alt=""></a>
+								</div>
+								<div class="proud-item__slider-item">
+									<a href="digital-concdert-hall.html"><img src="media/img/digital-concert-hall/thumb-02.png" alt=""></a>
+								</div>
+								<div class="proud-item__slider-item">
+									<a href="digital-concdert-hall.html"><img src="media/img/digital-concert-hall/thumb-03.png" alt=""></a>
+								</div>
 							</div>
 						</div>
-					</div>
-					<div class="proud-item__content">
-						<h3 class="proud-item__title">
-							<a class="proud-item__link" href="case-studies.html">
+						<div class="proud-item__content">
+							<h3 class="proud-item__title">
+								<a class="proud-item__link" href="digital-concdert-hall.html">
 								Redefining the digital viewing landscape of the Berliner Philharmoniker.
 							</a>
-						</h3>
-						<div class="proud-item__desc">
+							</h3>
+							<div class="proud-item__desc">
 							A pioneer in its category, the Berliner Philharmoniker's subscription service is available on most platforms. Ox&nbsp;has helped solved the difficult problem of user experience consistency across a constantly changing tech environment, maintainability and team inclusion.
 						</div>
-						<div class="proud-item__more">
-							<a class="proud-item__more-link" href="case-studies.html">
+							<div class="proud-item__more">
+								<a class="proud-item__more-link" href="case-studies.html">
 								Read more
 								<svg class="proud-item__more-arrow">
-									<use xlink:href="#icon-chevron_right"/>
-								</svg>
-							</a>
+										<use xlink:href="#icon-chevron_right"/>
+									</svg>
+								</a>
+							</div>
 						</div>
 					</div>
-				</div>
-			</li>
+				</li>
 
-			<li class="proud__list-item _fade-down" data-animation="_animated, 0.2">
-				<div class="proud-item">
-					<div class="proud-item__slider-col">
-						<div class="proud-item__slider" data-slick>
-							<div class="proud-item__slider-item">
-								<a href="case-studies.html"><img src="media/img/testflight/thumb-01.png" alt=""></a>
-							</div>
-							<div class="proud-item__slider-item">
-								<a href="case-studies.html"><img src="media/img/testflight/thumb-02.png" alt=""></a>
-							</div>
-							<div class="proud-item__slider-item">
-								<a href="case-studies.html"><img src="media/img/testflight/thumb-03.png" alt=""></a>
+				<li class="proud__list-item _fade-down" data-animation="_animated, 0.2">
+					<div class="proud-item">
+						<div class="proud-item__slider-col">
+							<div class="proud-item__slider" data-slick>
+								<div class="proud-item__slider-item">
+									<a href="testflight.html"><img src="media/img/testflight/thumb-01.png" alt=""></a>
+								</div>
+								<div class="proud-item__slider-item">
+									<a href="testflight.html"><img src="media/img/testflight/thumb-02.png" alt=""></a>
+								</div>
+								<div class="proud-item__slider-item">
+									<a href="testflight.html"><img src="media/img/testflight/thumb-03.png" alt=""></a>
+								</div>
 							</div>
 						</div>
-					</div>
-					<div class="proud-item__content">
-						<h3 class="proud-item__title">
-							<a class="proud-item__link" href="case-studies.html">
+						<div class="proud-item__content">
+							<h3 class="proud-item__title">
+								<a class="proud-item__link" href="testflight.html">
 								Allowing the digital experience to be possible for everyone via TestFlight.
 							</a>
-						</h3>
-						<div class="proud-item__desc">
+							</h3>
+							<div class="proud-item__desc">
 							Now a standard Apple developer tool, TestFlight started with a small team of engineers and designers with a vision: to turn a hack into a free, accessible tool to empower coders. Our designers were there from inception to acquisition, helping turn the platform into a full suite to support app creators through testing, monetization and analytics.
 						</div>
-						<div class="proud-item__more">
-							<a class="proud-item__more-link" href="case-studies.html">
+							<div class="proud-item__more">
+								<a class="proud-item__more-link" href="testflight.html">
 								Read more
 								<svg class="proud-item__more-arrow">
-									<use xlink:href="#icon-chevron_right"/>
-								</svg>
-							</a>
+										<use xlink:href="#icon-chevron_right"/>
+									</svg>
+								</a>
+							</div>
 						</div>
 					</div>
-				</div>
-			</li>
+				</li>
 
-			<li class="proud__list-item _fade-down" data-animation="_animated, 0.3">
-				<div class="proud-item">
-					<div class="proud-item__slider-col">
-						<div class="proud-item__slider" data-slick>
-							<div class="proud-item__slider-item">
-								<a href="case-studies.html"><img src="media/img/hverfisskipulag/thumb-01.png" alt=""></a>
-							</div>
-							<div class="proud-item__slider-item">
-								<a href="case-studies.html"><img src="media/img/hverfisskipulag/thumb-02.png" alt=""></a>
-							</div>
-							<div class="proud-item__slider-item">
-								<a href="case-studies.html"><img src="media/img/hverfisskipulag/thumb-03.png" alt=""></a>
+				<li class="proud__list-item _fade-down" data-animation="_animated, 0.3">
+					<div class="proud-item">
+						<div class="proud-item__slider-col">
+							<div class="proud-item__slider" data-slick>
+								<div class="proud-item__slider-item">
+									<a href="hverfisskipulag.html"><img src="media/img/hverfisskipulag/thumb-01.png" alt=""></a>
+								</div>
+								<div class="proud-item__slider-item">
+									<a href="hverfisskipulag.html"><img src="media/img/hverfisskipulag/thumb-02.png" alt=""></a>
+								</div>
+								<div class="proud-item__slider-item">
+									<a href="hverfisskipulag.html"><img src="media/img/hverfisskipulag/thumb-03.png" alt=""></a>
+								</div>
 							</div>
 						</div>
-					</div>
-					<div class="proud-item__content">
-						<h3 class="proud-item__title">
-							<a class="proud-item__link" href="case-studies.html">
+						<div class="proud-item__content">
+							<h3 class="proud-item__title">
+								<a class="proud-item__link" href="hverfisskipulag.html">
 								Bringing the City of Reykjavik closer to its citizens through human-centered design.
 							</a>
-						</h3>
-						<div class="proud-item__desc">
+							</h3>
+							<div class="proud-item__desc">
 							Using a human-centered approach, Ox helped bring solutions to improve the problem of urban sprawling in&nbsp;the city of Reykyavik. We ran design sprints and redesigned the tools to be used by professionals and citizens alike, strongly focusing on accessibility and inclusion.
 						</div>
-						<div class="proud-item__more">
-							<a class="proud-item__more-link" href="case-studies.html">
+							<div class="proud-item__more">
+								<a class="proud-item__more-link" href="hverfisskipulag.html">
 								Read more
 								<svg class="proud-item__more-arrow">
-									<use xlink:href="#icon-chevron_right"/>
-								</svg>
-							</a>
+										<use xlink:href="#icon-chevron_right"/>
+									</svg>
+								</a>
+							</div>
 						</div>
 					</div>
-				</div>
-			</li>
+				</li>
 
-		</ul>
-	</section>
-	<section class="portfolio">
-		<h2 class="portfolio__title _fade-down" data-animation="_animated">
+			</ul>
+		</section>
+		<section class="portfolio">
+			<h2 class="portfolio__title _fade-down" data-animation="_animated">
 			Some of the brands our members have helped
 		</h2>
-		<div class="portfolio__brands">
-			<div class="portfolio__brands-item _item-1 _fade-down" data-animation="_animated, 0.1">
-				<img src="media/img/logos/23divide.svg" alt="">
+			<div class="portfolio__brands">
+				<div class="portfolio__brands-item _item-1 _fade-down" data-animation="_animated, 0.1">
+					<img src="media/img/logos/23divide.svg" alt="">
+				</div>
+				<div class="portfolio__brands-item _item-2 _fade-down" data-animation="_animated, 0.15">
+					<img src="media/img/logos/berliner-philharmoniker.svg" alt="">
+				</div>
+				<div class="portfolio__brands-item _item-3 _fade-down" data-animation="_animated, 0.2">
+					<img src="media/img/logos/nissan.svg" alt="">
+				</div>
+				<div class="portfolio__brands-item _item-4 _fade-down" data-animation="_animated, 0.25">
+					<img src="media/img/logos/hsw.svg" alt="">
+				</div>
+				<div class="portfolio__brands-item _item-5 _fade-down" data-animation="_animated, 0.1">
+					<img src="media/img/logos/walgreens.svg" alt="">
+				</div>
+				<div class="portfolio__brands-item _item-6 _fade-down" data-animation="_animated, 0.15">
+					<img src="media/img/logos/beam.png" alt="">
+				</div>
+				<div class="portfolio__brands-item _item-7 _fade-down" data-animation="_animated, 0.2">
+					<img src="media/img/logos/lego.svg" alt="">
+				</div>
+				<div class="portfolio__brands-item _item-8 _fade-down" data-animation="_animated, 0.25">
+					<img src="media/img/logos/mattel.svg" alt="">
+				</div>
+				<div class="portfolio__brands-item _item-9 _fade-down" data-animation="_animated, 0.1">
+					<img src="media/img/logos/ssh.png" alt="">
+				</div>
+				<div class="portfolio__brands-item _item-10 _fade-down" data-animation="_animated, 0.15">
+					<img src="media/img/logos/design-center.png" alt="">
+				</div>
+				<div class="portfolio__brands-item _item-11 _fade-down" data-animation="_animated, 0.2">
+					<img src="media/img/logos/cityrvk.png" alt="">
+				</div>
+				<div class="portfolio__brands-item _item-12 _fade-down" data-animation="_animated, 0.25">
+					<img src="media/img/logos/ocean-cluster.png" alt="">
+				</div>
 			</div>
-			<div class="portfolio__brands-item _item-2 _fade-down" data-animation="_animated, 0.15">
-				<img src="media/img/logos/berliner-philharmoniker.svg" alt="">
-			</div>
-			<div class="portfolio__brands-item _item-3 _fade-down" data-animation="_animated, 0.2">
-				<img src="media/img/logos/nissan.svg" alt="">
-			</div>
-			<div class="portfolio__brands-item _item-4 _fade-down" data-animation="_animated, 0.25">
-				<img src="media/img/logos/hsw.svg" alt="">
-			</div>
-			<div class="portfolio__brands-item _item-5 _fade-down" data-animation="_animated, 0.1">
-				<img src="media/img/logos/walgreens.svg" alt="">
-			</div>
-			<div class="portfolio__brands-item _item-6 _fade-down" data-animation="_animated, 0.15">
-				<img src="media/img/logos/beam.png" alt="">
-			</div>
-			<div class="portfolio__brands-item _item-7 _fade-down" data-animation="_animated, 0.2">
-				<img src="media/img/logos/lego.svg" alt="">
-			</div>
-			<div class="portfolio__brands-item _item-8 _fade-down" data-animation="_animated, 0.25">
-				<img src="media/img/logos/mattel.svg" alt="">
-			</div>
-			<div class="portfolio__brands-item _item-9 _fade-down" data-animation="_animated, 0.1">
-				<img src="media/img/logos/ssh.png" alt="">
-			</div>
-			<div class="portfolio__brands-item _item-10 _fade-down" data-animation="_animated, 0.15">
-				<img src="media/img/logos/design-center.png" alt="">
-			</div>
-			<div class="portfolio__brands-item _item-11 _fade-down" data-animation="_animated, 0.2">
-				<img src="media/img/logos/cityrvk.png" alt="">
-			</div>
-			<div class="portfolio__brands-item _item-12 _fade-down" data-animation="_animated, 0.25">
-				<img src="media/img/logos/ocean-cluster.png" alt="">
-			</div>
-		</div>
-	</section>
-	<section class="services" data-section="services" id="services">
-		<div class="section-subtitle _fade-down" data-animation="_animated">
+		</section>
+		<section class="services" data-section="services" id="services">
+			<div class="section-subtitle _fade-down" data-animation="_animated">
 			Services
 		</div>
-		<h2 class="services__section-title section-title _fade-down" data-animation="_animated">
+			<h2 class="services__section-title section-title _fade-down" data-animation="_animated">
 			The tools we bring to the field
 		</h2>
-		<ul class="services__list">
-			<li class="services__list-item _fade-down" data-animation="_animated">
-				<div class="services-item">
-					<h3 class="services-item__title">
+			<ul class="services__list">
+				<li class="services__list-item _fade-down" data-animation="_animated">
+					<div class="services-item">
+						<h3 class="services-item__title">
 						Product Design
 					</h3>
-					<div class="services-item__desc">
+						<div class="services-item__desc">
 						Designing and launching your product, app, or concept – from a sketch to the store.
 					</div>
-				</div>
-			</li>
-			<li class="services__list-item _fade-down" data-animation="_animated">
-				<div class="services-item">
-					<h3 class="services-item__title">
+					</div>
+				</li>
+				<li class="services__list-item _fade-down" data-animation="_animated">
+					<div class="services-item">
+						<h3 class="services-item__title">
 						UX Design
 					</h3>
-					<div class="services-item__desc">
+						<div class="services-item__desc">
 						Helping you identify core bottlenecks and offer meaningful solutions for faster
 						production.
 					</div>
-				</div>
-			</li>
-			<li class="services__list-item _fade-down" data-animation="_animated">
-				<div class="services-item">
-					<h3 class="services-item__title">
+					</div>
+				</li>
+				<li class="services__list-item _fade-down" data-animation="_animated">
+					<div class="services-item">
+						<h3 class="services-item__title">
 						Interface Design
 					</h3>
-					<div class="services-item__desc">
+						<div class="services-item__desc">
 						Making your product interface come alive through accessible and human-centered design.
 					</div>
-				</div>
-			</li>
-			<li class="services__list-item _fade-down" data-animation="_animated">
-				<div class="services-item">
-					<h3 class="services-item__title">
+					</div>
+				</li>
+				<li class="services__list-item _fade-down" data-animation="_animated">
+					<div class="services-item">
+						<h3 class="services-item__title">
 						Branding and Visual Identity
 					</h3>
-					<div class="services-item__desc">
+						<div class="services-item__desc">
 						Creating an identity that resonates with your users and is visually consistent across
 						every touchpoint - branding that goes beyond just logos.
 					</div>
-				</div>
-			</li>
-			<li class="services__list-item _fade-down" data-animation="_animated">
-				<div class="services-item">
-					<h3 class="services-item__title">
+					</div>
+				</li>
+				<li class="services__list-item _fade-down" data-animation="_animated">
+					<div class="services-item">
+						<h3 class="services-item__title">
 						Workshops
 					</h3>
-					<div class="services-item__desc">
+						<div class="services-item__desc">
 						Helping you better understand your audience and provide meaningful solutions.
 					</div>
-				</div>
-			</li>
-			<li class="services__list-item _fade-down" data-animation="_animated">
-				<div class="services-item">
-					<h3 class="services-item__title">
+					</div>
+				</li>
+				<li class="services__list-item _fade-down" data-animation="_animated">
+					<div class="services-item">
+						<h3 class="services-item__title">
 						Direction and Strategy
 					</h3>
-					<div class="services-item__desc">
+						<div class="services-item__desc">
 						Pointing your business towards the bigger picture by setting out strategical goals for
 						your team and product.
 					</div>
-				</div>
-			</li>
-		</ul>
-	</section>
-	<section class="contacts" data-section="contact" id="contact">
-		<div class="contacts__leftside">
-			<img class="contacts__photo-1 _fade-down" src="media/img/contacts_planty.png" data-animation="_animated" alt="" />
-			<img class="contacts__photo-2 _fade-down" src="media/img/contacts_desk.png" data-animation="_animated" alt="" />
-			<img class="contacts__photo-3 _fade-down" src="media/img/contacts_friends.png" data-animation="_animated" alt="" />
-		</div>
-		<div class="contacts__rightside">
-			<div class="section-subtitle _fade-down" data-animation="_animated">Contact</div>
-			<h2 class="contacts__section-title _fade-down" data-animation="_animated">
+					</div>
+				</li>
+			</ul>
+		</section>
+		<section class="contacts" data-section="contact" id="contact">
+			<div class="contacts__leftside">
+				<img class="contacts__photo-1 _fade-down" src="media/img/contacts_planty.png" data-animation="_animated" alt=""/>
+				<img class="contacts__photo-2 _fade-down" src="media/img/contacts_desk.png" data-animation="_animated" alt=""/>
+				<img class="contacts__photo-3 _fade-down" src="media/img/contacts_friends.png" data-animation="_animated" alt=""/>
+			</div>
+			<div class="contacts__rightside">
+				<div class="section-subtitle _fade-down" data-animation="_animated">Contact</div>
+				<h2 class="contacts__section-title _fade-down" data-animation="_animated">
 				Ox Collective.<br> Made in Berlin, available around the globe.
 			</h2>
-			<div class="contacts__desc _fade-down" data-animation="_animated">
+				<div class="contacts__desc _fade-down" data-animation="_animated">
 				We’re great at working near and far. Let’s make something great!
 			</div>
-			<div class="contacts__mail _fade-down" data-animation="_animated">
-				<div class="contacts__mail-text">
+				<div class="contacts__mail _fade-down" data-animation="_animated">
+					<div class="contacts__mail-text">
 					Get in touch:
 				</div>
-				<a class="contacts__mail-link" href="mailto:hello@oxcollective.com">
+					<a class="contacts__mail-link" href="mailto:hello@oxcollective.com">
 					hello@oxcollective.com
 				</a>
+				</div>
 			</div>
-		</div>
-	</section>
-</div>
+		</section>
+	</div>
 {% endblock content %}
