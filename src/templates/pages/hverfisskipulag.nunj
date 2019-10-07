@@ -29,10 +29,9 @@
 								Deliverables
 							</div>
 							<div class="summary__content _fade-down" data-animation="_animated">
-								Multiplatform UX/UI Design<br>
-								User Research<br>
-								Design System<br>
-								Email Design
+								Design Workshop<br>
+								Planning Books<br>
+								Web App Design
 							</div>
 						</div>
 						<div class="summary__item _item-2">
@@ -40,7 +39,7 @@
 								Client
 							</div>
 							<div class="summary__content _fade-down" data-animation="_animated">
-								Berliner Philharmoniker
+								Reykjavik City
 							</div>
 						</div>
 					</div>
@@ -50,7 +49,7 @@
 								Overview
 							</div>
 							<div class="summary__content _fade-down" data-animation="_animated">
-								The Berliner Philharmoniker is ranked one of the top orchestras in the world. Their Digital Concert Hall is a pioneer of its kind, streaming premium, original content to subscribers—on practically any device–since 2008. Ox has worked closely with the team to solve the difficult problem of user experience consistency across a constantly changing tech environment, maintainability and team inclusion.
+								The capital of Iceland, like many cities in the world, face the problem of urban sprawling. With a fast-paced population growth, ambitious urban planning principles have been set for the next decades. To achieve this, the city's digital tools are the first step; both citizens and professionals (i.e. architects and engineers) need access to information about what and how they can build. Ox brought the human-centered mindset into the team to find the problem and bring together a concrete solution: a new, modern portal that is scalable, accessible and user-friendly.
 							</div>
 						</div>
 					</div>
@@ -64,8 +63,7 @@
 			<div class="description__block">
 				<div class="container _small">
 					<h2 class="description__title _fade-down" data-animation="_animated">Background</h2>
-					<p class="_fade-down" data-animation="_animated">As a streaming service with original, high-quality content and a passionate following around the world, it's no wonder the Digital Concert Hall has been a hit from day one. But the device landscape has shifted several times since 2008, and as the number of clients multiplied, problems began to surface.</p>
-					<p class="_fade-down" data-animation="_animated">Without a centralized design team, the interface was recreated for each new client, with different user flows, creating a dissonant experience for users—and a difficult task for the BPH team.</p>
+					<p class="_fade-down" data-animation="_animated">To address the growing urban density problem, the city wanted to update its urban planning process and move context to neighborhoods rather than arbitrary plots. They wanted to create a self-service information system to make official planning more accessible to the public.</p>
 				</div>
 			</div>
 			<div class="description__block">
@@ -73,23 +71,42 @@
 					<h2 class="description__title _fade-down" data-animation="_animated">The challenges</h2>
 					<ul class="list">
 						<li class="_fade-down" data-animation="_animated">
-							<span class="list__icon">&#10032;</span>Meet the diverse and constantly evolving requirements of each platform, while maintaining a consistent feel and recognizable brand
+							<span class="list__icon">&#10032;</span>Serving 3 different types of user:
+							<ul>
+								<li class="_fade-down" data-animation="_animated">
+									<span class="list__icon">&#10032;</span>City Employee</li>
+								<li class="_fade-down" data-animation="_animated">
+									<span class="list__icon">&#10032;</span>Professional (i.e. architects and engineers)</li>
+								<li class="_fade-down" data-animation="_animated">
+									<span class="list__icon">&#10032;</span>Civilian</li>
+							</ul>
 						</li>
 						<li class="_fade-down" data-animation="_animated">
-							<span class="list__icon">&#10032;</span>Simplify and unify app components and user flows, leaving room to leverage each platform's strengths
+							<span class="list__icon">&#10032;</span>Improve and simplify workflows, both in-house and outsourced
 						</li>
 						<li class="_fade-down" data-animation="_animated">
-							<span class="list__icon">&#10032;</span>Work swiftly within a small, startup-like structure and help create better product design processes
+							<span class="list__icon">&#10032;</span>Create a robust and consistent visual language so materials created by firms would carry the same message
 						</li>
 						<li class="_fade-down" data-animation="_animated">
-							<span class="list__icon">&#10032;</span>Understand our users, their realities, desires and needs and deliver an experience that feels as premium as the content
+							<span class="list__icon">&#10032;</span>To make complex information readable to laypersons
 						</li>
 						<li class="_fade-down" data-animation="_animated">
-							<span class="list__icon">&#10032;</span>Prioritize accessibility and inclusion
+							<span class="list__icon">&#10032;</span>Turn an outdated system, with massive amount of information-dense documents (Excel files) into accessible and usable data
 						</li>
 					</ul>
 				</div>
 			</div>
+
+			{# Section: Posters #}
+
+			<div class="description__block">
+				<div class="container _small">
+					<h2 class="description__title _fade-down" data-animation="_animated">Standardizing the<br>Planning Posters</h2>
+					<p class="_fade-down" data-animation="_animated">Our first step was improving the planning posters—complex, information-heavy maps that had no standards or guidelines for visual design. Instead, each architecture and engineering firm created their own poster, with their own styles.</p>
+					<p class="_fade-down" data-animation="_animated">Ox communicated with engineers working for the city to better understand their process and tools. We focused on simplicity and readability, and took into account the more broad-stroke (but legally binding) styles from the planning level above, creating visual styles that felt part of the same process.</p>
+				</div>
+			</div>
+
 			<div class="description__block">
 				<div class="container description__image-container">
 					<div class="description__image">
@@ -102,31 +119,61 @@
 					</div>
 				</div>
 			</div>
+
+			{# Section: Planning books #}
+
 			<div class="description__block">
-				<div class="container description__image-container _small">
-					<div class="description__image">
-						<img src="media/img/test_3.jpg" class="_zoom-out" data-animation="_zoom-started" alt="">
+				<div class="container _small">
+					<h2 class="description__title _fade-down" data-animation="_animated">Redesigning the Planning books for scalability and collaboration</h2>
+					<p class="_fade-down" data-animation="_animated">These are very technical and dense books, not easy to consume. They target two audiences with different needs: the <strong>public</strong>, and <strong>politicians</strong>. 30 books must be produced and updated over the space of years, which can be slow and costly if outsourced. On top of that, it had an overcomplicated visual system, lacking in functionality and accessibility.</p>
+				</div>
+			</div>
+
+			<div class="description__block">
+				<div class="container">
+					<div class="description__row">
+						<div class="description__col _image">
+							<div class="description__image-col">
+								<img src="media/img/test_1.jpg" class="_zoom-out" data-animation="_zoom-started" alt="">
+							</div>
+						</div>
+						<div class="description__col _text">
+							<ul class="list">
+								<li class="_fade-down" data-animation="_animated">
+									<span class="list__icon">&#10032;</span>Ox worked onsite to help integrate the team and understand the challenges.
+									</li>
+								<li class="_fade-down" data-animation="_animated">
+									<span class="list__icon">&#10032;</span>Collaborated with illustrator Rán Flygenring to create micro stories from citizens’ POV in relaxed and organic illustration style to contrast with the hyper technical source material.
+
+									</li>
+								<li class="_fade-down" data-animation="_animated">
+									<span class="list__icon">&#10032;</span>Simplified logo and color system.
+									</li>
+								<li class="_fade-down" data-animation="_animated">
+									<span class="list__icon">&#10032;</span>Design focused on readability and accessibility. Optimized for both screen and print.
+									</li>
+								<li class="_fade-down" data-animation="_animated">
+									<span class="list__icon">&#10032;</span>Created processes so they could do the layout work in-house.
+
+									</li>
+								<li class="_fade-down" data-animation="_animated">
+									<span class="list__icon">&#10032;</span>Focused on creating automated processes for speed, reliability and ease-of-use.
+									</li>
+							</ul>
+						</div>
 					</div>
 				</div>
-				<div class="container _small">
-					<div class="description__image-text _fade-down" data-animation="_animated">
-						This is text under an image. The home screen showing the featured content area. The user is signed in and has a ticket.
-					</div>
-				</div>
 			</div>
+
+			{# Section: Web App #}
+
 			<div class="description__block">
 				<div class="container _small">
-					<h2 class="description__title _fade-down" data-animation="_animated">Our process</h2>
-					<p class="_fade-down" data-animation="_animated">For the launch of the tvOS app store, we got to rebuild the app from the ground up. We worked closely with our Smart TV team as well as Apple and delivered an experience that delighted users, as well as stakeholders, collecting an "App of the Year (Japan)" award.</p>
+					<h2 class="description__title _fade-down" data-animation="_animated">Creating the Planning web app</h2>
+					<p class="_fade-down" data-animation="_animated">Through a preliminary workshop, we diagnosed a fragmentation, both in online information and expert knowledge within the government itself. Already running multiple online portals, each providing access to its own set of information, the City of RVK teams were siloed and not working together.</p>
 				</div>
 			</div>
-			<div class="description__block">
-				<div class="container _small">
-					<h2 class="description__title _fade-down" data-animation="_animated">The design system</h2>
-					<p class="_fade-down" data-animation="_animated">With full client approval, we moved on to the next question: how to port this successful experience to all other platforms?</p>
-					<p class="_fade-down" data-animation="_animated">The answer was a platform-agnostic design system. This not only facilitated the design of new clients, but also streamlined communication with developers.</p>
-				</div>
-			</div>
+
 			<div class="description__block">
 				<div class="description__image-container">
 					<div class="description__image">
@@ -139,46 +186,64 @@
 					</div>
 				</div>
 			</div>
+
 			<div class="description__block">
 				<div class="container _small">
-					<h2 class="description__title _fade-down" data-animation="_animated">Closer to users</h2>
+					<h2 class="description__title _fade-down" data-animation="_animated">How We Solved It</h2>
 					<ul class="list">
 						<li class="_fade-down" data-animation="_animated">
-							<span class="list__icon">&#10004;</span>Redesigned web client, set to launch in Fall 2019
-						</li>
+							<span class="list__icon">&#10032;</span>Ox ran a design sprint workshop with core experts within the organization, directing staff’s focus towards the user experience.
+									</li>
 						<li class="_fade-down" data-animation="_animated">
-							<span class="list__icon">&#10004;</span>Focus on user-centered design and accessibility
-						</li>
+							<span class="list__icon">&#10032;</span>Unpacked locked-in information through discussions and exercises.
+
+									</li>
 						<li class="_fade-down" data-animation="_animated">
-							<span class="list__icon">&#10004;</span>Through metrics, realized we needed to simplify and optimize the subscription model
-						</li>
+							<span class="list__icon">&#10032;</span>Created a searchable portal with all information regarding any given property in one place.
+									</li>
 						<li class="_fade-down" data-animation="_animated">
-							<span class="list__icon">&#10004;</span>Implemented more actionable metrics
-						</li>
+							<span class="list__icon">&#10032;</span>Leveraging the City’s rich databases giving users more info: Architectural plans, Measurements, Aerial photos, Permit forms, Rules and regulations, etc.
+									</li>
 						<li class="_fade-down" data-animation="_animated">
-							<span class="list__icon">&#10004;</span>Creating the foundation for a more data-driven roadmap
-						</li>
+							<span class="list__icon">&#10032;</span>Designs account for multiple stages of the planning process.
+									</li>
+						<li class="_fade-down" data-animation="_animated">
+							<span class="list__icon">&#10032;</span>Mobile friendly UI very important - designed mobile first.
+									</li>
 					</ul>
 				</div>
 			</div>
+
 			<div class="description__block">
-				<div class="container">
-					<div class="description__row">
-						<div class="description__col _image">
-							<div class="description__image-col">
-								<img src="media/img/test_1.jpg" class="_zoom-out" data-animation="_zoom-started" alt="">
-							</div>
-						</div>
-						<div class="description__col _text">
-							<h2 class="description__title _fade-down" data-animation="_animated">Business design:<br>optimizing processes</h2>
-							<p class="_fade-down" data-animation="_animated">With Ox as the center of product design, it became clear that an in-house team would be beneficial. We advised and supervised the building of a development and design team, which is flourishing and growing every month.</p>
-							<p class="_fade-down" data-animation="_animated">Ox also helped implement a design culture by improving processes and educating employees. With the design system, anyone in the company can provide better feedback, for which we implemented a pipeline that leads to continuous optimization through iteration.</p>
-						</div>
+				<div class="container description__image-container">
+					<div class="description__image">
+						<img src="media/img/test_2.jpg" class="_zoom-out" data-animation="_zoom-started" alt="">
+					</div>
+				</div>
+				<div class="container _small">
+					<div class="description__image-text _fade-down" data-animation="_animated">
+						This is text under an image. The home screen showing the featured content area. The user is signed in and has a ticket.
 					</div>
 				</div>
 			</div>
+
+			<div class="description__block">
+				<div class="container description__image-container">
+					<div class="description__image">
+						<img src="media/img/test_2.jpg" class="_zoom-out" data-animation="_zoom-started" alt="">
+					</div>
+				</div>
+				<div class="container _small">
+					<div class="description__image-text _fade-down" data-animation="_animated">
+						This is text under an image. The home screen showing the featured content area. The user is signed in and has a ticket.
+					</div>
+				</div>
+			</div>
+
 		</div>
 	</section>
+
+	{# Section: Testimonial #}
 
 	<section class="section _white _review">
 		<div class="container">
