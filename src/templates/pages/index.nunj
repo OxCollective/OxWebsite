@@ -122,19 +122,19 @@
 						<div class="proud-item__slider-col">
 							<div class="proud-item__slider" data-slick>
 								<div class="proud-item__slider-item">
-									<a href="digital-concdert-hall.html"><img src="media/img/digital-concert-hall/thumb-01.png" alt=""></a>
+									<a href="digital-concert-hall.html"><img src="media/img/digital-concert-hall/thumb-01.png" alt=""></a>
 								</div>
 								<div class="proud-item__slider-item">
-									<a href="digital-concdert-hall.html"><img src="media/img/digital-concert-hall/thumb-02.png" alt=""></a>
+									<a href="digital-concert-hall.html"><img src="media/img/digital-concert-hall/thumb-02.png" alt=""></a>
 								</div>
 								<div class="proud-item__slider-item">
-									<a href="digital-concdert-hall.html"><img src="media/img/digital-concert-hall/thumb-03.png" alt=""></a>
+									<a href="digital-concert-hall.html"><img src="media/img/digital-concert-hall/thumb-03.png" alt=""></a>
 								</div>
 							</div>
 						</div>
 						<div class="proud-item__content">
 							<h3 class="proud-item__title">
-								<a class="proud-item__link" href="digital-concdert-hall.html">
+								<a class="proud-item__link" href="digital-concert-hall.html">
 								Redefining the digital viewing landscape of the Berliner Philharmoniker.
 							</a>
 							</h3>
@@ -142,7 +142,7 @@
 							A pioneer in its category, the Berliner Philharmoniker's subscription service is available on most platforms. Ox&nbsp;has helped solved the difficult problem of user experience consistency across a constantly changing tech environment, maintainability and team inclusion.
 						</div>
 							<div class="proud-item__more">
-								<a class="proud-item__more-link" href="case-studies.html">
+								<a class="proud-item__more-link" href="digital-concert-hall.html">
 								Read more
 								<svg class="proud-item__more-arrow">
 										<use xlink:href="#icon-chevron_right"/>

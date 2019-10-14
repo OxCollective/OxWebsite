@@ -12,10 +12,10 @@
 			<span class="case-heading__line _fade-down" data-animation="_animated"></span>
 		</h1>
 		<div class="case-heading__video-container" data-top-parallax>
-			<video class="case-heading__video" poster="media/img/video-poster.jpg" playsinline muted autoplay loop>
+			{# <video class="case-heading__video" poster="media/img/video-poster.jpg" playsinline muted autoplay loop>
 				<source src="media/video/video.mp4" type="video/mp4">
-			</video>
-			<img class="case-heading__video-poster" src="media/img/video-poster.jpg" alt="">
+			</video> #}
+			<img class="case-heading__video-poster" src="media/img/digital-concert-hall/orchestra.jpg" alt="">
 		</div>
 	</section>
 
@@ -93,19 +93,19 @@
 			<div class="description__block">
 				<div class="container description__image-container">
 					<div class="description__image">
-						<img src="media/img/test_2.jpg" class="_zoom-out" data-animation="_zoom-started" alt="">
+						<img src="media/img/digital-concert-hall/apple-tv-scene.png" class="_zoom-out" data-animation="_zoom-started" alt="">
 					</div>
 				</div>
 				<div class="container _small">
 					<div class="description__image-text _fade-down" data-animation="_animated">
-						This is text under an image. The home screen showing the featured content area. The user is signed in and has a ticket.
+						hello This is text under an image. The home screen showing the featured content area. The user is signed in and has a ticket.
 					</div>
 				</div>
 			</div>
 			<div class="description__block">
 				<div class="container description__image-container _small">
 					<div class="description__image">
-						<img src="media/img/test_3.jpg" class="_zoom-out" data-animation="_zoom-started" alt="">
+						<img src="media/img/digital-concert-hall/apple-tv-app.png" class="_zoom-out" data-animation="_zoom-started" alt="">
 					</div>
 				</div>
 				<div class="container _small">
@@ -130,7 +130,7 @@
 			<div class="description__block">
 				<div class="description__image-container">
 					<div class="description__image">
-						<img src="media/img/test_2.jpg" class="_zoom-out" data-animation="_zoom-started" alt="">
+						<img src="media/img/digital-concert-hall/design-system-collage.png" class="_zoom-out" data-animation="_zoom-started" alt="">
 					</div>
 				</div>
 				<div class="container _small">
@@ -166,7 +166,7 @@
 					<div class="description__row">
 						<div class="description__col _image">
 							<div class="description__image-col">
-								<img src="media/img/test_1.jpg" class="_zoom-out" data-animation="_zoom-started" alt="">
+								<img src="media/img/digital-concert-hall/process-nando.png" class="_zoom-out" data-animation="_zoom-started" alt="">
 							</div>
 						</div>
 						<div class="description__col _text">
@@ -184,7 +184,7 @@
 		<div class="container">
 			<div class="review">
 				<div class="review__photo _fade-down" data-animation="_animated">
-					<img src="media/img/test_3.jpg" alt="">
+					<img src="media/img/digital-concert-hall/testimonial-marcus.png" alt="">
 				</div>
 				<div class="review__name _fade-down" data-animation="_animated">Marcus Forchner</div>
 				<div class="review__info _fade-down" data-animation="_animated">Head of Development at the Digital Concert Hall</div>
@@ -205,7 +205,7 @@
 			<div class="next-project">
 				<div class="next-project__image _zoom-out" data-animation="_zoom-started">
 					<a class="next-project__image-wrap" href="#">
-						<img src="media/img/test_2.jpg" alt="">
+						<img src="media/img/digital-concert-hall/hverfisskipulag-project-thumb.png" alt="">
 					</a>
 				</div>
 				<div class="next-project__info">
