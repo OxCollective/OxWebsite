@@ -1,7 +1,7 @@
 {% set headerModificators = "_light" %}
 {% extends "../ext/base.nunj" %}
 
-{% block title %}The Reykyavik City Planning Project - {{ super() }}
+{% block title %}The Reykjavik City Planning Project - {{ super() }}
 {% endblock title %}
 
 {% block content %}
