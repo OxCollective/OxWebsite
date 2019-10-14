@@ -72,13 +72,13 @@
 					<ul class="list">
 						<li class="_fade-down" data-animation="_animated">
 							<span class="list__icon">&#10032;</span>Serving 3 different types of user:
-							<ul>
+							<ul style="margin-top: 24px;">
 								<li class="_fade-down" data-animation="_animated">
-									<span class="list__icon">&#10032;</span>City Employee</li>
+									<span class="list__icon">&#10035;</span>City Employee</li>
 								<li class="_fade-down" data-animation="_animated">
-									<span class="list__icon">&#10032;</span>Professional (i.e. architects and engineers)</li>
+									<span class="list__icon">&#10035;</span>Professional (i.e. architects and engineers)</li>
 								<li class="_fade-down" data-animation="_animated">
-									<span class="list__icon">&#10032;</span>Civilian</li>
+									<span class="list__icon">&#10035;</span>Civilian</li>
 							</ul>
 						</li>
 						<li class="_fade-down" data-animation="_animated">
