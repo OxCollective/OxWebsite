@@ -12,10 +12,10 @@
 			<span class="case-heading__line _fade-down" data-animation="_animated"></span>
 		</h1>
 		<div class="case-heading__video-container" data-top-parallax>
-			<video class="case-heading__video" poster="media/img/video-poster.jpg" playsinline muted autoplay loop>
+			{# <video class="case-heading__video" poster="media/img/video-poster.jpg" playsinline muted autoplay loop>
 				<source src="media/video/video.mp4" type="video/mp4">
-			</video>
-			<img class="case-heading__video-poster" src="media/img/video-poster.jpg" alt="">
+			</video> #}
+			<img class="case-heading__video-poster" src="media/img/digital-concert-hall/orchestra.jpg" alt="">
 		</div>
 	</section>
 
