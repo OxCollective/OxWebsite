@@ -49,7 +49,7 @@
 								Overview
 							</div>
 							<div class="summary__content _fade-down" data-animation="_animated">
-								The capital of Iceland, like many cities in the world, face the problem of urban sprawling. With a fast-paced population growth, ambitious urban planning principles have been set for the next decades. To achieve this, the city's digital tools are the first step; both citizens and professionals (i.e. architects and engineers) need access to information about what and how they can build. Ox brought the human-centered mindset into the team to find the problem and bring together a concrete solution: a new, modern portal that is scalable, accessible and user-friendly.
+								The capital of Iceland, like many cities in the world, faces the problem of urban sprawling. With a fast-paced population growth, ambitious urban planning principles have been set for the next decades. To achieve this, the city's digital tools are the first step; both citizens and professionals (i.e. architects and engineers) need access to information about what and how they can build. Ox brought the human-centered mindset into the team to find the problem and bring together a concrete solution: a new, modern portal that is scalable, accessible and user-friendly.
 							</div>
 						</div>
 					</div>
@@ -110,7 +110,20 @@
 			<div class="description__block">
 				<div class="container description__image-container">
 					<div class="description__image">
-						<img src="media/img/test_2.jpg" class="_zoom-out" data-animation="_zoom-started" alt="">
+						<img src="media/img/hverfisskipulag/poster-before-after.png" class="_zoom-out" data-animation="_zoom-started" alt="">
+					</div>
+				</div>
+				<div class="container _small">
+					<div class="description__image-text _fade-down" data-animation="_animated">
+						This is text under an image. The home screen showing the featured content area. The user is signed in and has a ticket.
+					</div>
+				</div>
+			</div>
+
+			<div class="description__block">
+				<div class="container description__image-container">
+					<div class="description__image">
+						<img src="media/img/hverfisskipulag/planning-poster.png" class="_zoom-out" data-animation="_zoom-started" alt="">
 					</div>
 				</div>
 				<div class="container _small">
@@ -130,37 +143,91 @@
 			</div>
 
 			<div class="description__block">
-				<div class="container">
-					<div class="description__row">
-						<div class="description__col _image">
-							<div class="description__image-col">
-								<img src="media/img/test_1.jpg" class="_zoom-out" data-animation="_zoom-started" alt="">
-							</div>
-						</div>
-						<div class="description__col _text">
-							<ul class="list">
-								<li class="_fade-down" data-animation="_animated">
-									<span class="list__icon">&#10032;</span>Ox worked onsite to help integrate the team and understand the challenges.
-									</li>
-								<li class="_fade-down" data-animation="_animated">
-									<span class="list__icon">&#10032;</span>Collaborated with illustrator Rán Flygenring to create micro stories from citizens’ POV in relaxed and organic illustration style to contrast with the hyper technical source material.
+				<div class="container _small">
+					<ul class="list">
+						<li class="_fade-down" data-animation="_animated">
+							<span class="list__icon">&#10032;</span>Ox worked onsite to help integrate the team and understand the challenges.
+						</li>
+						<li class="_fade-down" data-animation="_animated">
+							<span class="list__icon">&#10032;</span>Collaborated with illustrator Rán Flygenring to create micro stories from citizens’ POV in relaxed and organic illustration style to contrast with the hyper technical source material.
+						</li>
+						<li class="_fade-down" data-animation="_animated">
+							<span class="list__icon">&#10032;</span>Simplified logo and color system.
+						</li>
+						<li class="_fade-down" data-animation="_animated">
+							<span class="list__icon">&#10032;</span>Design focused on readability and accessibility. Optimized for both screen and print.
+						</li>
+						<li class="_fade-down" data-animation="_animated">
+							<span class="list__icon">&#10032;</span>Created processes so they could do the layout work in-house.
+						</li>
+						<li class="_fade-down" data-animation="_animated">
+							<span class="list__icon">&#10032;</span>Focused on creating automated processes for speed, reliability and ease-of-use.
+						</li>
+					</ul>
+				</div>
+			</div>
 
-									</li>
-								<li class="_fade-down" data-animation="_animated">
-									<span class="list__icon">&#10032;</span>Simplified logo and color system.
-									</li>
-								<li class="_fade-down" data-animation="_animated">
-									<span class="list__icon">&#10032;</span>Design focused on readability and accessibility. Optimized for both screen and print.
-									</li>
-								<li class="_fade-down" data-animation="_animated">
-									<span class="list__icon">&#10032;</span>Created processes so they could do the layout work in-house.
+			<div class="description__block">
+				<div class="description__image-container">
+					<div class="description__image">
+						<img src="media/img/hverfisskipulag/books-1.png" class="_zoom-out" data-animation="_zoom-started" alt="">
+					</div>
+				</div>
+				<div class="container _small">
+					<div class="description__image-text _fade-down" data-animation="_animated">
+						This is text under an image. The home screen showing the featured content area. The user is signed in and has a ticket.
+					</div>
+				</div>
+			</div>
 
-									</li>
-								<li class="_fade-down" data-animation="_animated">
-									<span class="list__icon">&#10032;</span>Focused on creating automated processes for speed, reliability and ease-of-use.
-									</li>
-							</ul>
-						</div>
+			<div class="description__block">
+				<div class="container description__image-container">
+					<div class="description__image">
+						<img src="media/img/hverfisskipulag/books-2.png" class="_zoom-out" data-animation="_zoom-started" alt="">
+					</div>
+				</div>
+				<div class="container _small">
+					<div class="description__image-text _fade-down" data-animation="_animated">
+						This is text under an image. The home screen showing the featured content area. The user is signed in and has a ticket.
+					</div>
+				</div>
+			</div>
+
+			<div class="description__block">
+				<div class="container description__image-container">
+					<div class="description__image">
+						<img src="media/img/hverfisskipulag/books-3.png" class="_zoom-out" data-animation="_zoom-started" alt="">
+					</div>
+				</div>
+				<div class="container _small">
+					<div class="description__image-text _fade-down" data-animation="_animated">
+						This is text under an image. The home screen showing the featured content area. The user is signed in and has a ticket.
+					</div>
+				</div>
+			</div>
+
+			<div class="description__block">
+				<div class="container description__image-container _small">
+					<div class="description__image">
+						<img src="media/img/hverfisskipulag/books-4.png" class="_zoom-out" data-animation="_zoom-started" alt="">
+					</div>
+				</div>
+				<div class="container _small">
+					<div class="description__image-text _fade-down" data-animation="_animated">
+						This is text under an image. The home screen showing the featured content area. The user is signed in and has a ticket.
+					</div>
+				</div>
+			</div>
+
+			<div class="description__block">
+				<div class="container description__image-container">
+					<div class="description__image">
+						<img src="media/img/hverfisskipulag/books-5.png" class="_zoom-out" data-animation="_zoom-started" alt="">
+					</div>
+				</div>
+				<div class="container _small">
+					<div class="description__image-text _fade-down" data-animation="_animated">
+						This is text under an image. The home screen showing the featured content area. The user is signed in and has a ticket.
 					</div>
 				</div>
 			</div>
