@@ -8,13 +8,13 @@
 	<section class="case-heading">
 		<h1 class="case-heading__title">
 			<span class="case-heading__title-small _fade-down" data-animation="_animated">The</span>
-			<span class="case-heading__title-big _fade-down" data-animation="_animated">Reykyavik City Planning Project</span>
+			<span class="case-heading__title-big _fade-down" data-animation="_animated">Reykjavik City Planning Project</span>
 			<span class="case-heading__line _fade-down" data-animation="_animated"></span>
 		</h1>
 		<div class="case-heading__video-container" data-top-parallax>
-			<video class="case-heading__video" poster="media/img/video-poster.jpg" playsinline muted autoplay loop>
+			{# <video class="case-heading__video" poster="media/img/video-poster.jpg" playsinline muted autoplay loop>
 				<source src="media/video/video.mp4" type="video/mp4">
-			</video>
+			</video> #}
 			<img class="case-heading__video-poster" src="media/img/video-poster.jpg" alt="">
 		</div>
 	</section>
@@ -262,6 +262,33 @@
 				<div class="container description__image-container">
 					<div class="description__image">
 						<img src="media/img/hverfisskipulag/udg-02.png" class="_zoom-out" data-animation="_zoom-started" alt="">
+					</div>
+				</div>
+				<div class="container _small">
+					<div class="description__image-text _fade-down" data-animation="_animated">
+						This is text under an image. The home screen showing the featured content area. The user is signed in and has a ticket.
+					</div>
+				</div>
+			</div>
+
+
+			<div class="description__block">
+				<div class="container description__image-container">
+					<div class="description__image">
+						<img src="media/img/hverfisskipulag/logo-01.png" class="_zoom-out" data-animation="_zoom-started" alt="">
+					</div>
+				</div>
+				<div class="container _small">
+					<div class="description__image-text _fade-down" data-animation="_animated">
+						This is text under an image. The home screen showing the featured content area. The user is signed in and has a ticket.
+					</div>
+				</div>
+			</div>
+
+			<div class="description__block">
+				<div class="container description__image-container">
+					<div class="description__image">
+						<img src="media/img/hverfisskipulag/logo-02.png" class="_zoom-out" data-animation="_zoom-started" alt="">
 					</div>
 				</div>
 				<div class="container _small">
