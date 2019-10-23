@@ -417,18 +417,18 @@
 						<img src="media/img/hverfisskipulag/webapp-mobile-01.png" class="_zoom-out" data-animation="_zoom-started" alt="">
 					</div>
 				</div>
-				<div class="container _small">
+				{#<div class="container _small">
 					<div class="description__image-text _fade-down" data-animation="_animated">
 						This is text under an image. The home screen showing the featured content area. The user is signed in and has a ticket.
 					</div>
-				</div>
+				</div>#}
 			</div>
 
 		</div>
 	</section>
 
 	{# Section: Testimonial #}
-
+{# 
 	<section class="section _white _review">
 		<div class="container">
 			<div class="review">
@@ -447,14 +447,14 @@
 			</div>
 		</div>
 	</section>
-
+#}
 	<section class="section _white _next-project">
 		<div class="container">
 			<div class="section-subtitle _v2 _mobile _fade-down" data-animation="_animated">Next Project &#8594;</div>
 			<div class="next-project">
 				<div class="next-project__image _zoom-out" data-animation="_zoom-started">
 					<a class="next-project__image-wrap" href="#">
-						<img src="media/img/test_2.jpg" alt="">
+						<img src="media/img/digital-concert-hall/digital-concert-hall-project-thumb.png" alt="">
 					</a>
 				</div>
 				<div class="next-project__info">
