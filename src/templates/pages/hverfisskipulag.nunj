@@ -113,11 +113,11 @@
 						<img src="media/img/hverfisskipulag/poster-before-after.png" class="_zoom-out" data-animation="_zoom-started" alt="">
 					</div>
 				</div>
-				<div class="container _small">
+				{#<div class="container _small">
 					<div class="description__image-text _fade-down" data-animation="_animated">
 						This is text under an image. The home screen showing the featured content area. The user is signed in and has a ticket.
 					</div>
-				</div>
+				</div>#}
 			</div>
 
 			<div class="description__block">
@@ -126,11 +126,11 @@
 						<img src="media/img/hverfisskipulag/planning-poster.png" class="_zoom-out" data-animation="_zoom-started" alt="">
 					</div>
 				</div>
-				<div class="container _small">
+				{#<div class="container _small">
 					<div class="description__image-text _fade-down" data-animation="_animated">
 						This is text under an image. The home screen showing the featured content area. The user is signed in and has a ticket.
 					</div>
-				</div>
+				</div>#}
 			</div>
 
 			<div class="description__block">
@@ -139,11 +139,11 @@
 						<img src="media/img/hverfisskipulag/style-guide.png" class="_zoom-out" data-animation="_zoom-started" alt="">
 					</div>
 				</div>
-				<div class="container _small">
+				{#<div class="container _small">
 					<div class="description__image-text _fade-down" data-animation="_animated">
 						This is text under an image. The home screen showing the featured content area. The user is signed in and has a ticket.
 					</div>
-				</div>
+				</div>#}
 			</div>
 
 			{# Section: Planning books #}
@@ -186,11 +186,11 @@
 						<img src="media/img/hverfisskipulag/books-1.png" class="_zoom-out" data-animation="_zoom-started" alt="">
 					</div>
 				</div>
-				<div class="container _small">
+				{#<div class="container _small">
 					<div class="description__image-text _fade-down" data-animation="_animated">
 						This is text under an image. The home screen showing the featured content area. The user is signed in and has a ticket.
 					</div>
-				</div>
+				</div>#}
 			</div>
 
 			<div class="description__block">
@@ -199,11 +199,11 @@
 						<img src="media/img/hverfisskipulag/books-2.png" class="_zoom-out" data-animation="_zoom-started" alt="">
 					</div>
 				</div>
-				<div class="container _small">
+				{#<div class="container _small">
 					<div class="description__image-text _fade-down" data-animation="_animated">
 						This is text under an image. The home screen showing the featured content area. The user is signed in and has a ticket.
 					</div>
-				</div>
+				</div>#}
 			</div>
 
 			<div class="description__block">
@@ -212,11 +212,11 @@
 						<img src="media/img/hverfisskipulag/books-3.png" class="_zoom-out" data-animation="_zoom-started" alt="">
 					</div>
 				</div>
-				<div class="container _small">
+				{#<div class="container _small">
 					<div class="description__image-text _fade-down" data-animation="_animated">
 						This is text under an image. The home screen showing the featured content area. The user is signed in and has a ticket.
 					</div>
-				</div>
+				</div>#}
 			</div>
 
 			<div class="description__block">
@@ -225,11 +225,11 @@
 						<img src="media/img/hverfisskipulag/books-5.png" class="_zoom-out" data-animation="_zoom-started" alt="">
 					</div>
 				</div>
-				<div class="container _small">
+				{#<div class="container _small">
 					<div class="description__image-text _fade-down" data-animation="_animated">
 						This is text under an image. The home screen showing the featured content area. The user is signed in and has a ticket.
 					</div>
-				</div>
+				</div>#}
 			</div>
 
 			<div class="description__block">
@@ -238,11 +238,11 @@
 						<img src="media/img/hverfisskipulag/books-4.png" class="_zoom-out" data-animation="_zoom-started" alt="">
 					</div>
 				</div>
-				<div class="container _small">
+				{#<div class="container _small">
 					<div class="description__image-text _fade-down" data-animation="_animated">
 						This is text under an image. The home screen showing the featured content area. The user is signed in and has a ticket.
 					</div>
-				</div>
+				</div>#}
 			</div>
 
 			<div class="description__block">
@@ -251,11 +251,11 @@
 						<img src="media/img/hverfisskipulag/udg-01.png" class="_zoom-out" data-animation="_zoom-started" alt="">
 					</div>
 				</div>
-				<div class="container _small">
+				{#<div class="container _small">
 					<div class="description__image-text _fade-down" data-animation="_animated">
 						This is text under an image. The home screen showing the featured content area. The user is signed in and has a ticket.
 					</div>
-				</div>
+				</div>#}
 			</div>
 
 			<div class="description__block">
@@ -264,11 +264,11 @@
 						<img src="media/img/hverfisskipulag/udg-02.png" class="_zoom-out" data-animation="_zoom-started" alt="">
 					</div>
 				</div>
-				<div class="container _small">
+				{#<div class="container _small">
 					<div class="description__image-text _fade-down" data-animation="_animated">
 						This is text under an image. The home screen showing the featured content area. The user is signed in and has a ticket.
 					</div>
-				</div>
+				</div>#}
 			</div>
 
 
@@ -278,11 +278,11 @@
 						<img src="media/img/hverfisskipulag/logo-01.png" class="_zoom-out" data-animation="_zoom-started" alt="">
 					</div>
 				</div>
-				<div class="container _small">
+				{#<div class="container _small">
 					<div class="description__image-text _fade-down" data-animation="_animated">
 						This is text under an image. The home screen showing the featured content area. The user is signed in and has a ticket.
 					</div>
-				</div>
+				</div>#}
 			</div>
 
 			<div class="description__block">
@@ -291,11 +291,11 @@
 						<img src="media/img/hverfisskipulag/logo-02.png" class="_zoom-out" data-animation="_zoom-started" alt="">
 					</div>
 				</div>
-				<div class="container _small">
+				{#<div class="container _small">
 					<div class="description__image-text _fade-down" data-animation="_animated">
 						This is text under an image. The home screen showing the featured content area. The user is signed in and has a ticket.
 					</div>
-				</div>
+				</div>#}
 			</div>
 
 			{# Section: Web App #}
@@ -339,11 +339,11 @@
 						<img src="media/img/hverfisskipulag/process-01.png" class="_zoom-out" data-animation="_zoom-started" alt="">
 					</div>
 				</div>
-				<div class="container _small">
+				{#<div class="container _small">
 					<div class="description__image-text _fade-down" data-animation="_animated">
 						This is text under an image. The home screen showing the featured content area. The user is signed in and has a ticket.
 					</div>
-				</div>
+				</div>#}
 			</div>
 
 			<div class="description__block">
@@ -352,11 +352,11 @@
 						<img src="media/img/hverfisskipulag/webapp-01.png" class="_zoom-out" data-animation="_zoom-started" alt="">
 					</div>
 				</div>
-				<div class="container _small">
+				{#<div class="container _small">
 					<div class="description__image-text _fade-down" data-animation="_animated">
 						This is text under an image. The home screen showing the featured content area. The user is signed in and has a ticket.
 					</div>
-				</div>
+				</div>#}
 			</div>
 
 			<div class="description__block">
@@ -365,11 +365,11 @@
 						<img src="media/img/hverfisskipulag/webapp-02.png" class="_zoom-out" data-animation="_zoom-started" alt="">
 					</div>
 				</div>
-				<div class="container _small">
+				{#<div class="container _small">
 					<div class="description__image-text _fade-down" data-animation="_animated">
 						This is text under an image. The home screen showing the featured content area. The user is signed in and has a ticket.
 					</div>
-				</div>
+				</div>#}
 			</div>
 
 			<div class="description__block">
@@ -378,11 +378,11 @@
 						<img src="media/img/hverfisskipulag/webapp-03.png" class="_zoom-out" data-animation="_zoom-started" alt="">
 					</div>
 				</div>
-				<div class="container _small">
+				{#<div class="container _small">
 					<div class="description__image-text _fade-down" data-animation="_animated">
 						This is text under an image. The home screen showing the featured content area. The user is signed in and has a ticket.
 					</div>
-				</div>
+				</div>#}
 			</div>
 
 			<div class="description__block">
@@ -391,11 +391,11 @@
 						<img src="media/img/hverfisskipulag/webapp-04.png" class="_zoom-out" data-animation="_zoom-started" alt="">
 					</div>
 				</div>
-				<div class="container _small">
+				{#<div class="container _small">
 					<div class="description__image-text _fade-down" data-animation="_animated">
 						This is text under an image. The home screen showing the featured content area. The user is signed in and has a ticket.
 					</div>
-				</div>
+				</div>#}
 			</div>
 
 			<div class="description__block">
@@ -404,10 +404,11 @@
 						<img controls src="media/img/hverfisskipulag/hvsk-mobile.mp4" class="_zoom-out" data-animation="_zoom-started" alt="" style="max-width: 320px; border: 4px solid #66CCCC;" type="video/mp4">
 					</div>
 				</div>
-				<div class="container _small">
+				{#<div class="container _small">
 					<div class="description__image-text _fade-down" data-animation="_animated">
-						This is some text under an image. The home screen showing the featured content area. The user is signed in and has a ticket.
+						This is text under an image. The home screen showing the featured content area. The user is signed in and has a ticket.
 					</div>
+				</div>#}
 				</div>
 			</div>
 

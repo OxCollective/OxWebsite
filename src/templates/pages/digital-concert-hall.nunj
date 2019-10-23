@@ -96,11 +96,11 @@
 						<img src="media/img/digital-concert-hall/apple-tv-scene.png" class="_zoom-out" data-animation="_zoom-started" alt="">
 					</div>
 				</div>
-				<div class="container _small">
+				{#<div class="container _small">
 					<div class="description__image-text _fade-down" data-animation="_animated">
-						hello This is text under an image. The home screen showing the featured content area. The user is signed in and has a ticket.
+						This is text under an image. The home screen showing the featured content area. The user is signed in and has a ticket.
 					</div>
-				</div>
+				</div>#}
 			</div>
 			<div class="description__block">
 				<div class="container description__image-container _small">
@@ -108,11 +108,11 @@
 						<img src="media/img/digital-concert-hall/apple-tv-app.png" class="_zoom-out" data-animation="_zoom-started" alt="">
 					</div>
 				</div>
-				<div class="container _small">
+				{#<div class="container _small">
 					<div class="description__image-text _fade-down" data-animation="_animated">
 						This is text under an image. The home screen showing the featured content area. The user is signed in and has a ticket.
 					</div>
-				</div>
+				</div>#}
 			</div>
 			<div class="description__block">
 				<div class="container _small">
@@ -133,11 +133,11 @@
 						<img src="media/img/digital-concert-hall/design-system-collage.png" class="_zoom-out" data-animation="_zoom-started" alt="">
 					</div>
 				</div>
-				<div class="container _small">
+				{#<div class="container _small">
 					<div class="description__image-text _fade-down" data-animation="_animated">
 						This is text under an image. The home screen showing the featured content area. The user is signed in and has a ticket.
 					</div>
-				</div>
+				</div>#}
 			</div>
 			<div class="description__block">
 				<div class="container _small">
