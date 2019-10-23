@@ -13,9 +13,9 @@
 		</h1>
 		<div class="case-heading__video-container" data-top-parallax>
 			{# <video class="case-heading__video" poster="media/img/video-poster.jpg" playsinline muted autoplay loop>
-				<source src="media/video/video.mp4" type="video/mp4">
-			</video> #}
-			<img class="case-heading__video-poster" src="media/img/video-poster.jpg" alt="">
+				<source src="media/video/HVSK-Mobile.mp4" type="video/mp4">
+				</video> #}
+			<img class="case-heading__video-poster" src="media/img/hverfisskipulag/aerialshot.jpg" alt="">
 		</div>
 	</section>
 
@@ -220,9 +220,9 @@
 			</div>
 
 			<div class="description__block">
-				<div class="container description__image-container _small">
+				<div class="container description__image-container">
 					<div class="description__image">
-						<img src="media/img/hverfisskipulag/books-4.png" class="_zoom-out" data-animation="_zoom-started" alt="">
+						<img src="media/img/hverfisskipulag/books-5.png" class="_zoom-out" data-animation="_zoom-started" alt="">
 					</div>
 				</div>
 				<div class="container _small">
@@ -233,9 +233,9 @@
 			</div>
 
 			<div class="description__block">
-				<div class="container description__image-container">
+				<div class="container description__image-container _small">
 					<div class="description__image">
-						<img src="media/img/hverfisskipulag/books-5.png" class="_zoom-out" data-animation="_zoom-started" alt="">
+						<img src="media/img/hverfisskipulag/books-4.png" class="_zoom-out" data-animation="_zoom-started" alt="">
 					</div>
 				</div>
 				<div class="container _small">
@@ -308,19 +308,6 @@
 			</div>
 
 			<div class="description__block">
-				<div class="description__image-container">
-					<div class="description__image">
-						<img src="media/img/test_2.jpg" class="_zoom-out" data-animation="_zoom-started" alt="">
-					</div>
-				</div>
-				<div class="container _small">
-					<div class="description__image-text _fade-down" data-animation="_animated">
-						This is text under an image. The home screen showing the featured content area. The user is signed in and has a ticket.
-					</div>
-				</div>
-			</div>
-
-			<div class="description__block">
 				<div class="container _small">
 					<h2 class="description__title _fade-down" data-animation="_animated">How We Solved It</h2>
 					<ul class="list">
@@ -329,7 +316,6 @@
 									</li>
 						<li class="_fade-down" data-animation="_animated">
 							<span class="list__icon">&#10032;</span>Unpacked locked-in information through discussions and exercises.
-
 									</li>
 						<li class="_fade-down" data-animation="_animated">
 							<span class="list__icon">&#10032;</span>Created a searchable portal with all information regarding any given property in one place.
@@ -348,9 +334,9 @@
 			</div>
 
 			<div class="description__block">
-				<div class="container description__image-container">
+				<div class="container description__image-container _small">
 					<div class="description__image">
-						<img src="media/img/test_2.jpg" class="_zoom-out" data-animation="_zoom-started" alt="">
+						<img src="media/img/hverfisskipulag/process-01.png" class="_zoom-out" data-animation="_zoom-started" alt="">
 					</div>
 				</div>
 				<div class="container _small">
@@ -363,7 +349,72 @@
 			<div class="description__block">
 				<div class="container description__image-container">
 					<div class="description__image">
-						<img src="media/img/test_2.jpg" class="_zoom-out" data-animation="_zoom-started" alt="">
+						<img src="media/img/hverfisskipulag/webapp-01.png" class="_zoom-out" data-animation="_zoom-started" alt="">
+					</div>
+				</div>
+				<div class="container _small">
+					<div class="description__image-text _fade-down" data-animation="_animated">
+						This is text under an image. The home screen showing the featured content area. The user is signed in and has a ticket.
+					</div>
+				</div>
+			</div>
+
+			<div class="description__block">
+				<div class="container description__image-container">
+					<div class="description__image">
+						<img src="media/img/hverfisskipulag/webapp-02.png" class="_zoom-out" data-animation="_zoom-started" alt="">
+					</div>
+				</div>
+				<div class="container _small">
+					<div class="description__image-text _fade-down" data-animation="_animated">
+						This is text under an image. The home screen showing the featured content area. The user is signed in and has a ticket.
+					</div>
+				</div>
+			</div>
+
+			<div class="description__block">
+				<div class="container description__image-container">
+					<div class="description__image">
+						<img src="media/img/hverfisskipulag/webapp-03.png" class="_zoom-out" data-animation="_zoom-started" alt="">
+					</div>
+				</div>
+				<div class="container _small">
+					<div class="description__image-text _fade-down" data-animation="_animated">
+						This is text under an image. The home screen showing the featured content area. The user is signed in and has a ticket.
+					</div>
+				</div>
+			</div>
+
+			<div class="description__block">
+				<div class="container description__image-container">
+					<div class="description__image">
+						<img src="media/img/hverfisskipulag/webapp-04.png" class="_zoom-out" data-animation="_zoom-started" alt="">
+					</div>
+				</div>
+				<div class="container _small">
+					<div class="description__image-text _fade-down" data-animation="_animated">
+						This is text under an image. The home screen showing the featured content area. The user is signed in and has a ticket.
+					</div>
+				</div>
+			</div>
+
+			<div class="description__block">
+				<div class="container description__image-container _small">
+					<div class="description__image">
+						<img controls src="media/img/hverfisskipulag/hvsk-mobile.mp4" class="_zoom-out" data-animation="_zoom-started" alt="" style="max-width: 380px; border: 4px solid #66CCCC;" type="video/mp4">
+					</div>
+				</div>
+				<div class="container _small">
+					<div class="description__image-text _fade-down" data-animation="_animated">
+						This is some text under an image. The home screen showing the featured content area. The user is signed in and has a ticket.
+					</div>
+				</div>
+			</div>
+
+			<div class="description__block">
+				<div class="description__image-container">
+					<div class="description__image">
+						<img src="media/img/hverfisskipulag/webapp-mobile-01.png" class="_zoom-out" data-animation="_zoom-started" alt="">
 					</div>
 				</div>
 				<div class="container _small">
@@ -382,10 +433,10 @@
 		<div class="container">
 			<div class="review">
 				<div class="review__photo _fade-down" data-animation="_animated">
-					<img src="media/img/test_3.jpg" alt="">
+					<img src="media/img/hverfisskipulag/testimonial-aevar.png" alt="">
 				</div>
-				<div class="review__name _fade-down" data-animation="_animated">Marcus Forchner</div>
-				<div class="review__info _fade-down" data-animation="_animated">Head of Development at the Digital Concert Hall</div>
+				<div class="review__name _fade-down" data-animation="_animated">Ævar Harðarson</div>
+				<div class="review__info _fade-down" data-animation="_animated">Project Lead</div>
 				<div class="review__content">
 					<div class="review__icon _fade-down" data-animation="_animated"></div>
 					<div class="review__text">
@@ -409,7 +460,7 @@
 				<div class="next-project__info">
 					<div class="section-subtitle _v2 _desktop _fade-down" data-animation="_animated">Next Project &#8594;</div>
 					<div class="next-project__title _fade-down" data-animation="_animated">
-						<a class="next-project__link" href="#">The Reykjavik City Planning Project</a>
+						<a class="next-project__link" href="digital-concert-hall.html">The Digital Concert Hall</a>
 					</div>
 				</div>
 			</div>
