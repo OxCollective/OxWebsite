@@ -17,7 +17,7 @@ import { PRODUCTION } from '../config';
 
 const PROCESSORS = [
 	autoprefixer({
-		browsers: ['last 4 versions'],
+		overrideBrowserslist: ['last 4 versions'],
 		cascade: true,
 	}),
 	assets({
