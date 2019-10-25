@@ -194,32 +194,27 @@
 						<div class="proud-item__slider-col">
 							<div class="proud-item__slider" data-slick>
 								<div class="proud-item__slider-item">
-									<a href="testflight.html"><img src="media/img/testflight/thumb-01.png" alt=""></a>
+									<img src="media/img/testflight/thumb-01.png" alt="TestFlight Illustration">
 								</div>
 								<div class="proud-item__slider-item">
-									<a href="testflight.html"><img src="media/img/testflight/thumb-02.png" alt=""></a>
+									<img src="media/img/testflight/thumb-02.png" alt="TestFlight Illustration">
 								</div>
 								<div class="proud-item__slider-item">
-									<a href="testflight.html"><img src="media/img/testflight/thumb-03.png" alt=""></a>
+									<img src="media/img/testflight/thumb-03.png" alt="TestFlight Illustration">
 								</div>
 							</div>
 						</div>
 						<div class="proud-item__content">
 							<h3 class="proud-item__title">
-								<a class="proud-item__link" href="testflight.html">
+								<a class="proud-item__link" href="#">
 								Allowing the digital experience to be possible for everyone via TestFlight.
 								</a>
 							</h3>
 						<div class="proud-item__desc">
 						Now a standard Apple developer tool, TestFlight started with a small team of engineers and designers with a vision: to turn a hack into a free, accessible tool to empower coders. Our designers were there from inception to acquisition, helping turn the platform into a full suite to support app creators through testing, monetization and analytics.
 						</div>
-							<div class="proud-item__more">
-								<a class="proud-item__more-link" href="testflight.html">
-								Read more
-								<svg class="proud-item__more-arrow">
-										<use xlink:href="#icon-chevron_right"/>
-									</svg>
-								</a>
+							<div class="proud-item__more proud-item__more-link">
+								Coming Soon
 							</div>
 						</div>
 					</div>
