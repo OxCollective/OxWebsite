@@ -5,7 +5,7 @@
 	<div class="container">
 		<header class="heading" data-section="heading">
 			<h1 class="heading__title _fade-down" data-animation="_animated">
-			Products designed to set you apart from the herd.
+			Product design that sets you apart from the herd.
 		</h1>
 			<svg class="heading__icon _fade" viewBox="0 0 524 524" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" data-animation="_animated-fade">
 				<defs>
