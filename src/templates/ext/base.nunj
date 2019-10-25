@@ -11,6 +11,16 @@
 		<link rel="icon" type="image/png" sizes="16x16" href="media/img/favicon/favicon-16x16.png">
 		<link rel="manifest" href="/site.webmanifest">
 
+		<meta property="og:title" content=“Ox Collective”>
+		<meta name="twitter:title" content="Ox Collective">
+		<meta property="og:description" content="Products designed to set you apart from the herd.">
+		<meta property="og:type" content="website">
+		<meta property="og:url" content="https://oxcollective.com/“>
+		<meta property="og:site_name" content="Ox Collective">
+		<meta property="og:image" content=“media/img/ox-box.svg“>
+		<meta property="og:image:width" content="300">
+		<meta property="og:image:height" content="300">
+
 		{{ headScripts() }}
 
 		{% block stylesheets %}
