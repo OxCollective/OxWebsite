@@ -401,7 +401,12 @@
 			<div class="description__block">
 				<div class="container description__image-container _small">
 					<div class="description__image">
-						<img controls src="media/img/hverfisskipulag/hvsk-mobile.mp4" class="_zoom-out" data-animation="_zoom-started" alt="" style="max-width: 320px; border: 4px solid #66CCCC;" type="video/mp4">
+						<video width="412" autoplay>
+
+							<source src="media/video/hvsk-mobile.mp4" type="video/mp4">
+
+							Sorry, your browser doesn't support embedded videos.
+						</video>
 					</div>
 				</div>
 				{#<div class="container _small">
