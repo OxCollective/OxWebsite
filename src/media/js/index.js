@@ -175,7 +175,8 @@ global.OX = new function OX() { // eslint-disable-line
 		window.addEventListener('scroll', updateScrolledState);
 		updateScrolledState();
 
-		$('video').each(function(index, video){
+		/* fade in animation for hero video */
+		$('.case-heading__video-container video').each(function(index, video){
 			TweenMax.set(video, {alpha: 0});
 
 			let isStarted = false;
