@@ -7,6 +7,21 @@
 		margin-bottom: 27px
 		&:last-child
 			margin-bottom: 0
+		&._mb
+			margin-bottom: 61px
+	p
+		&._grey
+			+text(16px, 19px)
+			+ls(-0.1, 16)
+			color: $text-grey
+	img,
+	video
+		display: block
+		margin: 0 auto 26px auto
+		max-width: 100%
+		width: 100%
+		height: auto
+	h2,
 	&__title
 		margin-bottom: 35px
 		margin-top: 0
@@ -22,7 +37,8 @@
 			margin-bottom: 0
 	&__image,
 	&__image-col
-		img
+		img,
+		video
 			display: block
 			margin: 0 auto
 			max-width: 100%
@@ -37,6 +53,8 @@
 	&__col
 		margin-bottom: 64px
 		box-sizing: border-box
+		img,
+		video,
 		&:last-child
 			margin-bottom: 0
 	+min-screen($breakpoint-sm)
@@ -48,6 +66,7 @@
 				margin-right: 8px
 				margin-bottom: 55px
 			#{$parent-selector}
+				h2,
 				&__title
 					display: flex
 					flex-direction: column
@@ -63,6 +82,13 @@
 		+ls(-0.1, 21)
 		p, ul, ol
 			margin-bottom: 30px
+			&._mb
+				margin-bottom: 94px
+		p
+			&._grey
+				+text(18px, 23px)
+				+ls(-0.1, 18)
+		h2,
 		&__title
 			+text(40px)
 			+ls(-1.5, 40)

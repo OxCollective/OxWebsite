@@ -83,6 +83,18 @@ global.OX = new function OX() { // eslint-disable-line
 				false,
 				55
 			);
+			ShowHelper2.staggerWatch(
+				$('.content p, .content li, .content h2, .content img, .content video, [data-fade-down]'),
+				function(state, target) {
+					if( state ){
+						ShowHelper2.unwatch(target);
+						target.classList.add( '_started' )
+					}
+				},
+				true,
+				false,
+				55
+			);
 
 			ShowHelper2.start();
 		})();

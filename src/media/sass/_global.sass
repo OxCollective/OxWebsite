@@ -99,7 +99,8 @@
 	overflow-y: auto
 	-webkit-overflow-scrolling: touch
 
-._fade-down
+._fade-down,
+[data-fade-down]
 	transform: translate(0,-20px)
 	opacity: 0
 	transition: transform 0.35s ease-out, opacity 0.35s ease-out
@@ -129,7 +130,8 @@
 	opacity: 0
 	transition: opacity 0.35s ease-out
 
-._animated
+._animated,
+[data-fade-down]._started
 	transform: translate(0,0) !important
 	opacity: 1 !important
 	transition: transform 0.35s ease-out, opacity 0.35s ease-out !important
@@ -169,3 +171,20 @@
 ._zoom-started
 	opacity: 1
 	transform: scale(1)
+
+.content
+	p, li, h2
+		transform: translate(0,-20px)
+		opacity: 0
+		transition: transform 0.35s ease-out, opacity 0.35s ease-out
+		&._started
+			transform: translate(0,0)
+			opacity: 1
+	img, video
+		opacity: 0
+		transform: scale(1.05)
+		transition: opacity 0.5s ease-out, transform 0.5s ease-out
+		will-change: transform
+		&._started
+			opacity: 1
+			transform: scale(1)

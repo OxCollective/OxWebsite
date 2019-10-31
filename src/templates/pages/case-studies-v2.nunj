@@ -1,0 +1,260 @@
+{% set headerModificators = "_light" %}
+{% extends "../ext/base.nunj" %}
+
+{% block title %}Digital Concert Hall - {{ super() }}{% endblock title %}
+
+{% block content %}
+	<section class="case-heading">
+		{# title #}
+		<h1 class="case-heading__title _line" data-fade-down>
+			<span class="_sm">The</span>
+			<span class="_lg">Digital Concert Hall</span>
+		</h1>
+
+		{# video #}
+		<div class="case-heading__video-container" data-top-parallax>
+			<video poster="media/img/video-poster.jpg" playsinline muted autoplay loop>
+				<source src="media/video/video.mp4" type="video/mp4">
+			</video>
+			<img src="media/img/video-poster.jpg" alt="">
+		</div>
+	</section>
+
+	<section class="section _grey _small">
+		<div class="container">
+			<div class="summary">
+				<div class="summary__row">
+					<div class="summary__col _left">
+
+						{# summary item #}
+						<div class="summary__item" data-fade-down>
+							<div class="summary__title">
+								Deliverables
+							</div>
+							<p>
+								Multiplatform UX/UI Design<br>
+								User Research<br>
+								Design System<br>
+								Email Design
+							</p>
+						</div>
+
+						{# summary item #}
+						<div class="summary__item" data-fade-down>
+							<div class="summary__title">
+								Client
+							</div>
+							<p>
+								Berliner Philharmoniker
+							</p>
+						</div>
+
+					</div>
+					<div class="summary__col _right">
+
+						{# summary item #}
+						<div class="summary__item" data-fade-down>
+							<div class="summary__title">
+								Overview
+							</div>
+							<p>
+								The Berliner Philharmoniker is ranked one of the top orchestras in the world. Their Digital Concert Hall is a pioneer of its kind, streaming premium, original content to subscribers—on practically any device–since 2008. Ox has worked closely with the team to solve the difficult problem of user experience consistency across a constantly changing tech environment, maintainability and team inclusion.
+							</p>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="section content description _white">
+		{# small container #}
+		<div class="container _small">
+			<h2>Background</h2>
+			<p>As a streaming service with original, high-quality content and a passionate following around the world, it's no wonder the Digital Concert Hall has been a hit from day one. But the device landscape has shifted several times since 2008, and as the number of clients multiplied, problems began to surface.</p>
+			<p class="_mb">Without a centralized design team, the interface was recreated for each new client, with different user flows, creating a dissonant experience for users—and a difficult task for the BPH team.</p>
+			<h2>The challenges</h2>
+			<ul class="list _mb">
+				<li>
+					<span class="list__icon">&#10032;</span>
+					Meet the diverse and constantly evolving requirements of each platform, while maintaining a consistent feel and recognizable brand
+				</li>
+				<li>
+					<span class="list__icon">&#10032;</span>
+					Simplify and unify app components and user flows, leaving room to leverage each platform's strengths
+				</li>
+				<li>
+					<span class="list__icon">&#10032;</span>
+					Work swiftly within a small, startup-like structure and help create better product design processes
+				</li>
+				<li>
+					<span class="list__icon">&#10032;</span>
+					Understand our users, their realities, desires and needs and deliver an experience that feels as premium as the content
+				</li>
+				<li>
+					<span class="list__icon">&#10032;</span>
+					Prioritize accessibility and inclusion
+				</li>
+			</ul>
+		</div>
+
+		{# regular container #}
+		<div class="container">
+			<video poster="media/img/video-poster.jpg" playsinline muted autoplay loop>
+				<source src="media/video/video.mp4" type="video/mp4">
+			</video>
+		</div>
+
+		{# small container #}
+		<div class="container _small">
+			<p class="_grey _mb">
+				This is text under a video. The home screen showing the featured content area. The user is signed in and has a ticket.
+			</p>
+		</div>
+
+		{# regular container #}
+		<div class="container">
+			<img src="media/img/test_2.jpg" alt="">
+		</div>
+
+		{# small container #}
+		<div class="container _small">
+			<p class="_grey _mb">
+				This is text under an image. The home screen showing the featured content area. The user is signed in and has a ticket.
+			</p>
+			<img src="media/img/test_3.jpg" alt="">
+			<p class="_grey _mb">
+				This is text under an image. The home screen showing the featured content area. The user is signed in and has a ticket.
+			</p>
+			<h2>Our process</h2>
+			<p class="_mb">For the launch of the tvOS app store, we got to rebuild the app from the ground up. We worked closely with our Smart TV team as well as Apple and delivered an experience that delighted users, as well as stakeholders, collecting an "App of the Year (Japan)" award.</p>
+			<h2>The design system</h2>
+			<p>With full client approval, we moved on to the next question: how to port this successful experience to all other platforms?</p>
+			<p class="_mb">The answer was a platform-agnostic design system. This not only facilitated the design of new clients, but also streamlined communication with developers.</p>
+		</div>
+
+		{# without container, 100% width #}
+		<img src="media/img/test_2.jpg" alt="">
+
+		{# small container #}
+		<div class="container _small">
+			<p class="_grey _mb">
+				This is text under an image. The home screen showing the featured content area. The user is signed in and has a ticket.
+			</p>
+			<h2>Closer to users</h2>
+			<ul class="list _mb">
+				<li>
+					<span class="list__icon">&#10004;</span>
+					Redesigned web client, set to launch in Fall 2019
+				</li>
+				<li>
+					<span class="list__icon">&#10004;</span>
+					Focus on user-centered design and accessibility
+				</li>
+				<li>
+					<span class="list__icon">&#10004;</span>
+					Through metrics, realized we needed to simplify and optimize the subscription model
+				</li>
+				<li>
+					<span class="list__icon">&#10004;</span>
+					Implemented more actionable metrics
+				</li>
+				<li>
+					<span class="list__icon">&#10004;</span>
+					Creating the foundation for a more data-driven roadmap
+				</li>
+			</ul>
+		</div>
+
+		{# regular container #}
+		<div class="container">
+			<div class="description__row">
+				<div class="description__col _image">
+
+					{# image in column #}
+					<img src="media/img/test_1.jpg" alt="">
+
+				</div>
+				<div class="description__col _text">
+
+					{# text in column #}
+					<h2>Business design:<br>optimizing processes</h2>
+					<p>With Ox as the center of product design, it became clear that an in-house team would be beneficial. We advised and supervised the building of a development and design team, which is flourishing and growing every month.</p>
+					<p>Ox also helped implement a design culture by improving processes and educating employees. With the design system, anyone in the company can provide better feedback, for which we implemented a pipeline that leads to continuous optimization through iteration.</p>
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+	{# review #}
+	<section class="section _white _review">
+		<div class="container">
+			<div class="review">
+				<div class="review__photo" data-fade-down>
+
+					{# review image #}
+					<img src="media/img/test_3.jpg" alt="">
+
+				</div>
+				<div class="content">
+
+					{# review content #}
+					<p class="review__name">Marcus Forchner</p>
+					<p class="review__info">Head of Development at the Digital Concert Hall</p>
+					<div class="review__content">
+						<p class="review__icon"></p>
+						<div class="review__text">
+							<p>With Ox as the center of product design, they advised and supervised the building of a development and design team, which is flourishing and growing every month.</p>
+							<p>They helped implement a design culture by improving processes and educating employees. With the design system, anyone in the company can provide better feedback, for which we implemented a pipeline that leads to continuous optimization through iteration.</p>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+	{# next project #}
+	<section class="section _white _next-project">
+		<div class="container">
+			<div class="section-subtitle _v2 _mobile" data-fade-down>Next Project &#8594;</div>
+			<div class="next-project">
+				<div class="next-project__image _zoom-out" data-animation="_zoom-started">
+
+					{# next project link and image #}
+					<a class="next-project__image-wrap" href="#">
+						<img src="media/img/test_2.jpg" alt="">
+					</a>
+
+				</div>
+				<div class="next-project__info">
+					<div class="section-subtitle _v2 _desktop" data-fade-down>Next Project &#8594;</div>
+					<div class="next-project__title" data-fade-down>
+
+						{# next project link and title #}
+						<a class="next-project__link" href="#">
+							The Reykjavik City Planning Project
+						</a>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	{# contact #}
+	<section class="section _grey _contact">
+		<div class="container">
+			<div class="contact">
+				<div class="section-subtitle _v2" data-fade-down>Contact</div>
+				<h2 class="contact__title" data-fade-down>Ox Collective.<br>Made in Berlin, available around the globe.</h2>
+				<div class="contact__mail">
+					<div class="contact__mail-text" data-fade-down>Get in touch:</div>
+					<a class="contact__mail-link" href="mailto:hello@oxcollective.com" data-fade-down>hello@oxcollective.com</a>
+				</div>
+			</div>
+		</div>
+	</section>
+{% endblock content %}

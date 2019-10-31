@@ -22,6 +22,7 @@
 			height: 1px
 			margin-bottom: 18px
 			background: $stone
+	p,
 	&__content
 		+text(18px)
 		+ls(-0.1, 18)
@@ -47,15 +48,18 @@
 				display: flex
 				flex-direction: column
 		&__item
-			&._item-1
+			&._item-1,
+			&:nth-child(1)
 				order: 2
 				margin-bottom: 0
-			&._item-2
+			&._item-2,
+			&:nth-child(2)
 				order: 1
 				margin-bottom: 62px
 		&__title
 			margin-bottom: 25px
 	+min-screen($breakpoint-lg)
+		p,
 		&__content
 			+text(21px, 26px)
 			+ls(-0.034, 21)

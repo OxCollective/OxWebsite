@@ -28,14 +28,16 @@
 		+min-screen($breakpoint-md)
 			height: 56.25vw
 			max-height: 720px
-	&__video
+	&__video,
+	video
 		position: absolute
 		width: 100%
 		height: 100%
 		object-fit: cover
 		opacity: 0
 		z-index: 2
-	&__video-poster
+	&__video-poster,
+	img
 		position: absolute
 		width: 100%
 		height: 100%
@@ -50,6 +52,16 @@
 		font-weight: 900
 		letter-spacing: -0.025em
 		text-align: center
+		&._line
+			&:after
+				content: ''
+				display: block
+				width: 128px
+				height: 1px
+				background: #ffffff
+				margin: 16px auto 0 auto
+				+min-screen($breakpoint-lg)
+					width: 192px
 		+min-screen($breakpoint-lg)
 			font-size: 64px
 		+min-screen($breakpoint-xl)
@@ -62,12 +74,14 @@
 		margin: 16px auto 0 auto
 		+min-screen($breakpoint-lg)
 			width: 192px
-	&__title-small
+	&__title-small,
+	._sm
 		display: block
 		font-family: $font-family-base
 		font-size: 18px
 		font-weight: 300
 		text-transform: uppercase
-	&__title-big
+	&__title-big,
+	._lg
 		display: block
 		filter: url(#InnerShadow)
