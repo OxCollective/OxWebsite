@@ -48,3 +48,13 @@
 				color: #9c9c9c
 			&:active
 				color: #82640c
+
+html._header-effects._scrolled
+	@supports (backdrop-filter: blur(12px))
+		.main-header
+			transition: background-color 0.35s ease-out, padding 0.35s ease-out, box-shadow 0.35s ease-out
+			box-shadow: 0 0 12px rgba(0,0,0,0)
+			&._with-bg
+				background-color: rgba(246, 246, 246, 0.5)
+				box-shadow: 0 0 20px rgba(0,0,0,0.2)
+				backdrop-filter: blur(12px)

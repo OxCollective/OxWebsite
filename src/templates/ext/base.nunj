@@ -1,6 +1,6 @@
 {% from "../parts/_head-scripts.nunj" import headScripts %}
 <!DOCTYPE html>
-<html class="page">
+<html class="page _header-effects">
 	<head>
 		<!-- Client-side programming by sborkaproject.com -->
 		<meta charset="utf-8" />
